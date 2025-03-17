@@ -69,17 +69,6 @@ progcomputadores.json: Contém questões sobre Programação de Computadores.
 
 
 
-Cada arquivo JSON deve ter a seguinte estrutura:
-
-[
-  {
-    "pergunta": "Texto da pergunta",
-    "opcoes": ["Opção 1", "Opção 2", "Opção 3", "Opção 4"],
-    "resposta_correta": "Opção correta"
-  },
-  ...
-]
-
 
 
 Licença
