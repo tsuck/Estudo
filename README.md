@@ -25,25 +25,6 @@ Você pode instalar o Flask executando o comando abaixo:
 pip install flask
 
 
-Estrutura de Diretórios
-
-│
-├── app.py                # Arquivo principal do servidor Flask
-├── inteligenciaartificial.json # Arquivo JSON contendo as questões sobre Inteligência Artificial
-├── lgcomputacional.json  # Arquivo JSON contendo questões sobre Lógica Computacional
-├── progcomputadores.json # Arquivo JSON contendo questões sobre Programação de Computadores
-├── templates/            # Pasta contendo os arquivos HTML
-│   ├── index.html        # Página inicial
-│   ├── instrucoes.html   # Página de instruções
-│   ├── prova.html        # Página da prova
-│   └── resultado.html    # Página de resultado
-└── static/               # Pasta para arquivos estáticos (CSS, JS)
-    ├── css/
-    │   └── style.css     # Arquivo de estilo CSS
-    └── js/
-        └── script.js     # Arquivo de script JavaScript
-
-
 
 Como Rodar o Projeto
 
