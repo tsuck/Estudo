@@ -1,0 +1,682 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Como é definido um argumento na lógica matemática?",
+        "opcoes": [
+            "Uma proposição lógica simples",
+            "Uma sequência finita de proposições lógicas que tem como consequência uma proposição final",
+            "Uma equivalência lógica entre duas proposições",
+            "Uma tabela-verdade que representa valores verdadeiros"
+        ],
+        "resposta_correta": "Uma sequência finita de proposições lógicas que tem como consequência uma proposição final"
+    },
+    {
+        "id": 2,
+        "pergunta": "Para que um argumento P1, P2, P3..., Pn Ⱶ Q seja considerado válido, é necessário que:",
+        "opcoes": [
+            "A conclusão Q seja falsa sempre que as premissas forem verdadeiras",
+            "Pelo menos uma das premissas seja verdadeira",
+            "A conclusão Q seja verdadeira todas as vezes que as premissas P1, P2, P3..., Pn forem verdadeiras",
+            "A conclusão Q seja independente das premissas"
+        ],
+        "resposta_correta": "A conclusão Q seja verdadeira todas as vezes que as premissas P1, P2, P3..., Pn forem verdadeiras"
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual é o critério para verificar a validade de um argumento P1, P2, P3..., Pn Ⱶ Q?",
+        "opcoes": [
+            "Verificar se a disjunção (P1 ∨ P2 ∨ P3 ∨ ... ∨ Pn) → Q é uma tautologia",
+            "Verificar se a conjunção (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) → Q é uma tautologia",
+            "Verificar se a bicondicional (P1 ↔ P2 ↔ P3 ↔ ... ↔ Pn) ↔ Q é uma tautologia",
+            "Verificar se a negação ~(P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) → ~Q é uma tautologia"
+        ],
+        "resposta_correta": "Verificar se a conjunção (P1 ∧ P2 ∧ P3 ∧ ... ∧ Pn) → Q é uma tautologia"
+    },
+    {
+        "id": 4,
+        "pergunta": "Qual argumento válido fundamental corresponde à regra 'p → q, ~q Ⱶ ~p'?",
+        "opcoes": [
+            "Modus Ponens",
+            "Modus Tollens",
+            "Silogismo Disjunto",
+            "Silogismo Hipotético"
+        ],
+        "resposta_correta": "Modus Tollens"
+    },
+    {
+        "id": 5,
+        "pergunta": "A regra de inferência Modus Ponens corresponde a qual argumento?",
+        "opcoes": [
+            "p → q, p Ⱶ q",
+            "p → q, ~q Ⱶ ~p",
+            "p ∨ q, ~p Ⱶ q",
+            "p → q, q → r Ⱶ p → r"
+        ],
+        "resposta_correta": "p → q, p Ⱶ q"
+    },
+    {
+        "id": 6,
+        "pergunta": "Qual é a regra de inferência que permite deduzir 'q' a partir das premissas 'p ∨ q' e '~p'?",
+        "opcoes": [
+            "Modus Ponens",
+            "Modus Tollens",
+            "Silogismo Disjunto",
+            "Dilema Construtivo"
+        ],
+        "resposta_correta": "Silogismo Disjunto"
+    },
+    {
+        "id": 7,
+        "pergunta": "Qual regra de inferência permite deduzir 'p ∧ q' a partir das premissas 'p' e 'q'?",
+        "opcoes": [
+            "Adição",
+            "Simplificação",
+            "Conjunção",
+            "Absorção"
+        ],
+        "resposta_correta": "Conjunção"
+    },
+    {
+        "id": 8,
+        "pergunta": "Para demonstrar a validade do argumento p → (q → r), p → q, p Ⱶ r, qual sequência de regras de inferência pode ser utilizada?",
+        "opcoes": [
+            "Modus Ponens, Modus Tollens, Modus Ponens",
+            "Modus Ponens, Modus Ponens, Modus Ponens",
+            "Silogismo Hipotético, Modus Ponens, Modus Ponens",
+            "Modus Ponens, Silogismo Disjunto, Modus Ponens"
+        ],
+        "resposta_correta": "Modus Ponens, Modus Ponens, Modus Ponens"
+    },
+    {
+        "id": 9,
+        "pergunta": "Como é definida uma implicação lógica P(p,q,r) ⇒ Q(p,q,r)?",
+        "opcoes": [
+            "P(p,q,r) implica Q(p,q,r) se e somente se a bicondicional P(p,q,r) ↔ Q(p,q,r) for uma tautologia",
+            "P(p,q,r) implica Q(p,q,r) se e somente se a condicional P(p,q,r) → Q(p,q,r) for uma tautologia",
+            "P(p,q,r) implica Q(p,q,r) se e somente se a conjunção P(p,q,r) ∧ Q(p,q,r) for uma tautologia",
+            "P(p,q,r) implica Q(p,q,r) se e somente se a disjunção P(p,q,r) ∨ Q(p,q,r) for uma tautologia"
+        ],
+        "resposta_correta": "P(p,q,r) implica Q(p,q,r) se e somente se a condicional P(p,q,r) → Q(p,q,r) for uma tautologia"
+    },
+    {
+        "id": 10,
+        "pergunta": "Como é definida uma equivalência lógica P(p,q,r) ⇔ Q(p,q,r)?",
+        "opcoes": [
+            "P(p,q,r) é equivalente a Q(p,q,r) se e somente se a bicondicional P(p,q,r) ↔ Q(p,q,r) for uma tautologia",
+            "P(p,q,r) é equivalente a Q(p,q,r) se e somente se a condicional P(p,q,r) → Q(p,q,r) for uma tautologia",
+            "P(p,q,r) é equivalente a Q(p,q,r) se e somente se a conjunção P(p,q,r) ∧ Q(p,q,r) for uma tautologia",
+            "P(p,q,r) é equivalente a Q(p,q,r) se e somente se a disjunção P(p,q,r) ∨ Q(p,q,r) for uma tautologia"
+        ],
+        "resposta_correta": "P(p,q,r) é equivalente a Q(p,q,r) se e somente se a bicondicional P(p,q,r) ↔ Q(p,q,r) for uma tautologia"
+    },
+    {
+        "id": 11,
+        "pergunta": "Qual regra de inferência permite deduzir 'p → (p ∧ q)' a partir da premissa 'p → q'?",
+        "opcoes": [
+            "Adição",
+            "Simplificação", 
+            "Conjunção",
+            "Absorção"
+        ],
+        "resposta_correta": "Absorção"
+    },
+    {
+        "id": 12,
+        "pergunta": "Qual a principal vantagem do método dedutivo em relação ao uso de tabelas-verdade?",
+        "opcoes": [
+            "É mais visual e intuitivo",
+            "É mais eficiente e com menor possibilidade de erro",
+            "Permite trabalhar com um número ilimitado de proposições",
+            "Não requer conhecimento prévio de equivalências lógicas"
+        ],
+        "resposta_correta": "É mais eficiente e com menor possibilidade de erro"
+    },
+    {
+        "id": 13,
+        "pergunta": "No exemplo clássico 'Todos os homens são mortais; Sócrates é homem; Logo, Sócrates é mortal', identifique quantas premissas e conclusões existem:",
+        "opcoes": [
+            "Uma premissa e duas conclusões",
+            "Duas premissas e uma conclusão",
+            "Três premissas e nenhuma conclusão",
+            "Uma premissa e uma conclusão"
+        ],
+        "resposta_correta": "Duas premissas e uma conclusão"
+    },
+    {
+        "id": 14,
+        "pergunta": "Qual das alternativas representa corretamente a regra do Silogismo Hipotético?",
+        "opcoes": [
+            "p → q, p Ⱶ q",
+            "p → q, ~q Ⱶ ~p",
+            "p ∨ q, ~p Ⱶ q",
+            "p → q, q → r Ⱶ p → r"
+        ],
+        "resposta_correta": "p → q, q → r Ⱶ p → r"
+    },
+    {
+        "id": 15,
+        "pergunta": "Para demonstrar a implicação lógica p ∧ q ⇒ p pelo método dedutivo, qual é o primeiro passo?",
+        "opcoes": [
+            "Verificar se p ∧ q é verdadeiro",
+            "Transformar a condicional p ∧ q → p em sua forma equivalente",
+            "Aplicar a regra de Morgan diretamente",
+            "Construir uma tabela-verdade"
+        ],
+        "resposta_correta": "Transformar a condicional p ∧ q → p em sua forma equivalente"
+    },
+    {
+        "id": 16,
+        "pergunta": "Na demonstração da equivalência lógica (p → r) ∧ (q → r) ⇔ p ∨ q → r, qual propriedade é utilizada para transformar (~p ∨ r) ∧ (~q ∨ r) em (~p ∧ ~q) ∨ r?",
+        "opcoes": [
+            "Comutatividade",
+            "Associatividade",
+            "Distributividade (inversa)",
+            "Regra de Morgan"
+        ],
+        "resposta_correta": "Distributividade (inversa)"
+    },
+    {
+        "id": 17,
+        "pergunta": "Qual é a diferença fundamental entre implicação lógica e argumento válido?",
+        "opcoes": [
+            "Implicações lógicas usam apenas proposições simples, enquanto argumentos usam proposições compostas",
+            "Na implicação lógica temos proposições P e Q quaisquer, enquanto no argumento temos uma conjunção de premissas P1, P2, P3... e uma conclusão Q",
+            "Implicações lógicas são sempre verdadeiras, enquanto argumentos podem ser válidos ou inválidos",
+            "Implicações lógicas não podem ser demonstradas por tabelas-verdade, apenas por método dedutivo"
+        ],
+        "resposta_correta": "Na implicação lógica temos proposições P e Q quaisquer, enquanto no argumento temos uma conjunção de premissas P1, P2, P3... e uma conclusão Q"
+    },
+    {
+        "id": 18,
+        "pergunta": "Qual é a regra de inferência que permite deduzir 'q ∨ s' a partir das premissas 'p → q', 'r → s' e 'p ∨ r'?",
+        "opcoes": [
+            "Dilema Construtivo",
+            "Dilema Destrutivo",
+            "Silogismo Hipotético",
+            "Silogismo Disjunto"
+        ],
+        "resposta_correta": "Dilema Construtivo"
+    },
+    {
+        "id": 19,
+        "pergunta": "No método dedutivo, qual das seguintes ferramentas é fundamental para realizar demonstrações?",
+        "opcoes": [
+            "Teoremas sobre proposições simples",
+            "Equivalências lógicas e argumentos válidos fundamentais",
+            "Tabelas-verdade de proposições compostas",
+            "Álgebra booleana e teorema de completude"
+        ],
+        "resposta_correta": "Equivalências lógicas e argumentos válidos fundamentais"
+    },
+    {
+        "id": 20,
+        "pergunta": "Na regra do Dilema Destrutivo, qual é a conclusão obtida a partir das premissas 'p → q', 'r → s' e '~q ∨ ~s'?",
+        "opcoes": [
+            "p ∨ r",
+            "q ∨ s",
+            "~p ∨ ~r",
+            "~q ∨ ~s"
+        ],
+        "resposta_correta": "~p ∨ ~r"
+    },
+    {
+        "id": 21,
+        "pergunta": "Qual é a definição de implicação lógica entre duas proposições P e Q?",
+        "opcoes": ["P → Q é sempre verdadeira", "P → Q é uma tautologia", "P → Q é uma contradição", "P → Q é uma contingência"],
+        "resposta_correta": "P → Q é uma tautologia"
+    },
+    {
+        "id": 22,
+        "pergunta": "Como se representa a notação de implicação lógica entre duas proposições P e Q?",
+        "opcoes": ["P ⇔ Q", "P → Q", "P ⇒ Q", "P ∨ Q"],
+        "resposta_correta": "P ⇒ Q"
+    },
+    {
+        "id": 23,
+        "pergunta": "Qual a diferença entre os símbolos '⇒' e '→' na lógica proposicional?",
+        "opcoes": ["Não há diferença, são sinônimos", "'⇒' indica uma relação de implicação enquanto '→' é um operador condicional", "'→' indica uma relação de implicação enquanto '⇒' é um operador condicional", "Ambos são operadores condicionais, mas '⇒' é mais forte"],
+        "resposta_correta": "'⇒' indica uma relação de implicação enquanto '→' é um operador condicional"
+    },
+    {
+        "id": 24,
+        "pergunta": "Qual é a definição de equivalência lógica entre duas proposições P e Q?",
+        "opcoes": ["P ↔ Q é uma tautologia", "P → Q é uma tautologia", "P ∧ Q é uma tautologia", "P ∨ Q é uma tautologia"],
+        "resposta_correta": "P ↔ Q é uma tautologia"
+    },
+    {
+        "id": 25,
+        "pergunta": "Como se representa a notação de equivalência lógica entre duas proposições P e Q?",
+        "opcoes": ["P ⇔ Q", "P → Q", "P ⇒ Q", "P ∨ Q"],
+        "resposta_correta": "P ⇔ Q"
+    },
+    {
+        "id": 26,
+        "pergunta": "Qual das seguintes é uma implicação lógica conhecida como 'Modus Ponens'?",
+        "opcoes": ["~Q ∧ (P → Q) ⇒ ~P", "(P → Q) ∧ (Q → R) ⇒ (P → R)", "P ∧ (P → Q) ⇒ Q", "(P ∨ Q) ∧ ~P ⇒ Q"],
+        "resposta_correta": "P ∧ (P → Q) ⇒ Q"
+    },
+    {
+        "id": 27,
+        "pergunta": "Qual é a equivalência lógica da negação da negação (dupla negação)?",
+        "opcoes": ["~(~p) ⇔ ~p", "~(~p) ⇔ p", "~(~p) ⇔ p ∧ ~p", "~(~p) ⇔ p ∨ ~p"],
+        "resposta_correta": "~(~p) ⇔ p"
+    },
+    {
+        "id": 28,
+        "pergunta": "De acordo com a primeira Lei de Morgan, qual é a equivalência lógica da negação de uma conjunção?",
+        "opcoes": ["~(p ∧ q) ⇔ ~p ∧ ~q", "~(p ∧ q) ⇔ ~p ∨ ~q", "~(p ∧ q) ⇔ p ∨ q", "~(p ∧ q) ⇔ p ∧ ~q"],
+        "resposta_correta": "~(p ∧ q) ⇔ ~p ∨ ~q"
+    },
+    {
+        "id": 29,
+        "pergunta": "De acordo com a segunda Lei de Morgan, qual é a equivalência lógica da negação de uma disjunção?",
+        "opcoes": ["~(p ∨ q) ⇔ ~p ∧ ~q", "~(p ∨ q) ⇔ ~p ∨ ~q", "~(p ∨ q) ⇔ p ∧ q", "~(p ∨ q) ⇔ ~p ∨ q"],
+        "resposta_correta": "~(p ∨ q) ⇔ ~p ∧ ~q"
+    },
+    {
+        "id": 30,
+        "pergunta": "Qual das seguintes é uma lei idempotente na álgebra das proposições?",
+        "opcoes": ["p ∧ q ⇔ q ∧ p", "p ∨ (q ∨ r) ⇔ (p ∨ q) ∨ r", "p ∧ p ⇔ p", "p ∧ (q ∨ r) ⇔ (p ∧ q) ∨ (p ∧ r)"],
+        "resposta_correta": "p ∧ p ⇔ p"
+    },
+    {
+        "id": 31,
+        "pergunta": "Qual das seguintes é uma lei comutativa na álgebra das proposições?",
+        "opcoes": ["p ∧ q ⇔ q ∧ p", "p ∨ (q ∨ r) ⇔ (p ∨ q) ∨ r", "p ∧ p ⇔ p", "p ∧ (q ∨ r) ⇔ (p ∧ q) ∨ (p ∧ r)"],
+        "resposta_correta": "p ∧ q ⇔ q ∧ p"
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual das seguintes é uma lei associativa na álgebra das proposições?",
+        "opcoes": ["p ∧ q ⇔ q ∧ p", "p ∨ (q ∨ r) ⇔ (p ∨ q) ∨ r", "p ∧ p ⇔ p", "p ∧ (q ∨ r) ⇔ (p ∧ q) ∨ (p ∧ r)"],
+        "resposta_correta": "p ∨ (q ∨ r) ⇔ (p ∨ q) ∨ r"
+    },
+    {
+        "id": 33,
+        "pergunta": "Qual das seguintes é uma lei distributiva na álgebra das proposições?",
+        "opcoes": ["p ∧ q ⇔ q ∧ p", "p ∨ (q ∨ r) ⇔ (p ∨ q) ∨ r", "p ∧ p ⇔ p", "p ∧ (q ∨ r) ⇔ (p ∧ q) ∨ (p ∧ r)"],
+        "resposta_correta": "p ∧ (q ∨ r) ⇔ (p ∧ q) ∨ (p ∧ r)"
+    },
+    {
+        "id": 34,
+        "pergunta": "Qual é a equivalência lógica do condicional (p → q)?",
+        "opcoes": ["p → q ⇔ ~p ∧ q", "p → q ⇔ ~p ∨ q", "p → q ⇔ p ∧ ~q", "p → q ⇔ p ∨ ~q"],
+        "resposta_correta": "p → q ⇔ ~p ∨ q"
+    },
+    {
+        "id": 35,
+        "pergunta": "Qual é a equivalência lógica do bicondicional (p ↔ q)?",
+        "opcoes": ["p ↔ q ⇔ (p → q) ∧ (q → p)", "p ↔ q ⇔ (p → q) ∨ (q → p)", "p ↔ q ⇔ (~p ∧ ~q) ∨ (p ∧ q)", "p ↔ q ⇔ (~p ∨ q) ∧ (~q ∨ p)"],
+        "resposta_correta": "p ↔ q ⇔ (p → q) ∧ (q → p)"
+    },
+    {
+        "id": 36,
+        "pergunta": "Em que condições uma proposição está na Forma Normal (FN)?",
+        "opcoes": ["Quando contém apenas os conectivos ~, ∧ e ∨", "Quando contém apenas os conectivos → e ↔", "Quando está na forma de uma tautologia", "Quando está na forma de uma contradição"],
+        "resposta_correta": "Quando contém apenas os conectivos ~, ∧ e ∨"
+    },
+    {
+        "id": 37,
+        "pergunta": "Qual das seguintes proposições está na Forma Normal Conjuntiva (FNC)?",
+        "opcoes": ["p ∧ (q ∨ r)", "p ∨ (q ∧ r)", "p → q", "p ↔ q"],
+        "resposta_correta": "p ∧ (q ∨ r)"
+    },
+    {
+        "id": 38,
+        "pergunta": "Qual das seguintes proposições está na Forma Normal Disjuntiva (FND)?",
+        "opcoes": ["p ∧ (q ∨ r)", "p ∨ (q ∧ r)", "p → q", "p ↔ q"],
+        "resposta_correta": "p ∨ (q ∧ r)"
+    },
+    {
+        "id": 39,
+        "pergunta": "Qual das seguintes transformações é necessária para converter uma proposição para a Forma Normal?",
+        "opcoes": ["Eliminar os conectivos ~ e ∧", "Eliminar os conectivos → e ↔", "Eliminar os conectivos ∨ e ∧", "Eliminar os conectivos ~ e ∨"],
+        "resposta_correta": "Eliminar os conectivos → e ↔"
+    },
+    {
+        "id": 40,
+        "pergunta": "Qual das seguintes proposições está tanto na Forma Normal Conjuntiva (FNC) quanto na Forma Normal Disjuntiva (FND)?",
+        "opcoes": ["p ∧ (q ∨ r)", "p ∨ (q ∧ r)", "p ∧ q", "p ↔ q"],
+        "resposta_correta": "p ∧ q"
+    },
+    {
+        "id": 41,
+        "pergunta": "Qual é a definição mais ampla e precisa de lógica?",
+        "opcoes": [
+            "A ciência dos princípios matemáticos",
+            "A ciência que estuda os princípios e os métodos que permitem estabelecer as condições de validade e invalidade de argumentos",
+            "A ciência que analisa exclusivamente proposições verdadeiras",
+            "A ciência que estuda apenas o raciocínio dedutivo"
+        ],
+        "resposta_correta": "A ciência que estuda os princípios e os métodos que permitem estabelecer as condições de validade e invalidade de argumentos"
+    },
+    {
+        "id": 42,
+        "pergunta": "O que é um argumento na lógica?",
+        "opcoes": [
+            "Uma frase declarativa com sujeito e predicado",
+            "Uma disputa entre dois pontos de vista opostos",
+            "Uma parte do discurso composto por premissas e uma conclusão",
+            "Um conjunto de palavras que expressa emoção"
+        ],
+        "resposta_correta": "Uma parte do discurso composto por premissas e uma conclusão"
+    },
+    {
+        "id": 43,
+        "pergunta": "Qual filósofo é considerado o autor mais importante da primeira sistematização conhecida da lógica?",
+        "opcoes": [
+            "George Boole",
+            "G. Frege",
+            "Aristóteles",
+            "Bertrand Russell"
+        ],
+        "resposta_correta": "Aristóteles"
+    },
+    {
+        "id": 44,
+        "pergunta": "No segundo período da evolução da lógica, qual foi a principal característica de sua evolução?",
+        "opcoes": [
+            "Tornou-se mais algébrica",
+            "Tornou-se mais filosófica",
+            "Concentrou-se apenas em argumentos",
+            "Foi aplicada exclusivamente à retórica"
+        ],
+        "resposta_correta": "Tornou-se mais algébrica"
+    },
+    {
+        "id": 45,
+        "pergunta": "O período contemporâneo da lógica tem seu início marcado a partir da publicação de qual obra?",
+        "opcoes": [
+            "Organon",
+            "Principia Mathematica",
+            "A Lógica Algébrica",
+            "Cálculo Proposicional Moderno"
+        ],
+        "resposta_correta": "Principia Mathematica"
+    },
+    {
+        "id": 46,
+        "pergunta": "Qual das seguintes frases NÃO pode ser considerada uma proposição lógica?",
+        "opcoes": [
+            "O Sol é uma estrela",
+            "3 + 4 = 7",
+            "Que festa boa!",
+            "Uberaba fica em Minas Gerais"
+        ],
+        "resposta_correta": "Que festa boa!"
+    },
+    {
+        "id": 47,
+        "pergunta": "Quais são os três princípios que regem a lógica clássica?",
+        "opcoes": [
+            "Identidade, contradição e terceiro excluído",
+            "Verdade, falsidade e incerteza",
+            "Identidade, igualdade e diferença",
+            "Tautologia, contradição e contingência"
+        ],
+        "resposta_correta": "Identidade, contradição e terceiro excluído"
+    },
+    {
+        "id": 48,
+        "pergunta": "Como se calcula o número de linhas em uma tabela verdade?",
+        "opcoes": [
+            "3^n, onde n é o número de proposições simples",
+            "2^n, onde n é o número de proposições simples",
+            "n^2, onde n é o número de proposições simples",
+            "n!, onde n é o número de proposições simples"
+        ],
+        "resposta_correta": "2^n, onde n é o número de proposições simples"
+    },
+    {
+        "id": 49,
+        "pergunta": "Qual é o valor lógico da conjunção (p ^ q) quando p é verdadeiro e q é falso?",
+        "opcoes": [
+            "Verdadeiro",
+            "Falso",
+            "Indeterminado",
+            "Depende do contexto"
+        ],
+        "resposta_correta": "Falso"
+    },
+    {
+        "id": 50,
+        "pergunta": "Quando uma proposição condicional (p → q) é falsa?",
+        "opcoes": [
+            "Quando p é verdadeiro e q é falso",
+            "Quando p é falso e q é verdadeiro",
+            "Quando ambas p e q são falsas",
+            "Quando ambas p e q são verdadeiras"
+        ],
+        "resposta_correta": "Quando p é verdadeiro e q é falso"
+    },
+    {
+        "id": 51,
+        "pergunta": "O que caracteriza uma proposição bicondicional (p ↔ q)?",
+        "opcoes": [
+            "É verdadeira quando p e q têm o mesmo valor lógico",
+            "É sempre verdadeira independentemente dos valores de p e q",
+            "É verdadeira apenas quando ambas as proposições são verdadeiras",
+            "É verdadeira apenas quando ambas as proposições são falsas"
+        ],
+        "resposta_correta": "É verdadeira quando p e q têm o mesmo valor lógico"
+    },
+    {
+        "id": 52,
+        "pergunta": "Qual a ordem de precedência correta dos conectivos lógicos?",
+        "opcoes": [
+            "Negação, conjunção/disjunção, condicional, bicondicional",
+            "Bicondicional, condicional, conjunção/disjunção, negação",
+            "Conjunção, disjunção, negação, condicional, bicondicional",
+            "Negação, bicondicional, condicional, conjunção/disjunção"
+        ],
+        "resposta_correta": "Negação, conjunção/disjunção, condicional, bicondicional"
+    },
+    {
+        "id": 53,
+        "pergunta": "O que é uma tautologia?",
+        "opcoes": [
+            "Uma proposição que é sempre falsa",
+            "Uma proposição que é sempre verdadeira",
+            "Uma proposição que pode ser verdadeira ou falsa",
+            "Uma proposição que não tem valor lógico definido"
+        ],
+        "resposta_correta": "Uma proposição que é sempre verdadeira"
+    },
+    {
+        "id": 54,
+        "pergunta": "Qual proposição composta é um exemplo de tautologia?",
+        "opcoes": [
+            "p ^ ~p",
+            "p → p",
+            "p v q",
+            "p → q"
+        ],
+        "resposta_correta": "p → p"
+    },
+    {
+        "id": 55,
+        "pergunta": "O que é uma contradição?",
+        "opcoes": [
+            "Uma proposição que é sempre falsa",
+            "Uma proposição que é sempre verdadeira",
+            "Uma proposição que tem valores lógicos variáveis",
+            "Uma proposição que contradiz outra proposição"
+        ],
+        "resposta_correta": "Uma proposição que é sempre falsa"
+    },
+    {
+        "id": 56,
+        "pergunta": "Qual é o exemplo de uma proposição composta que é uma contradição?",
+        "opcoes": [
+            "p v ~p",
+            "p → p",
+            "p ^ ~p",
+            "p ↔ p"
+        ],
+        "resposta_correta": "p ^ ~p"
+    },
+    {
+        "id": 57,
+        "pergunta": "O que é uma proposição contingente ou indeterminada?",
+        "opcoes": [
+            "Uma proposição que não é tautologia nem contradição",
+            "Uma proposição que é sempre verdadeira",
+            "Uma proposição que é sempre falsa",
+            "Uma proposição que não pode ser avaliada logicamente"
+        ],
+        "resposta_correta": "Uma proposição que não é tautologia nem contradição"
+    },
+    {
+        "id": 58,
+        "pergunta": "Na lógica proposicional, o que distingue as proposições simples das compostas?",
+        "opcoes": [
+            "Proposições simples são sempre verdadeiras",
+            "Proposições compostas utilizam conectivos para combinar duas ou mais proposições",
+            "Proposições simples não têm valor lógico",
+            "Proposições compostas são sempre falsas"
+        ],
+        "resposta_correta": "Proposições compostas utilizam conectivos para combinar duas ou mais proposições"
+    },
+    {
+        "id": 59,
+        "pergunta": "Qual é o papel principal da lógica na ciência da computação?",
+        "opcoes": [
+            "Apenas avaliar o desempenho de programas",
+            "Desenvolver algoritmos de classificação",
+            "Desenvolvimento de linguagens de modelagem e especificação para permitir o raciocínio sobre situações e sistemas",
+            "Verificar apenas a sintaxe de linguagens de programação"
+        ],
+        "resposta_correta": "Desenvolvimento de linguagens de modelagem e especificação para permitir o raciocínio sobre situações e sistemas"
+    },
+    {
+        "id": 60,
+        "pergunta": "Na proposição condicional 'Se chove, então a rua fica molhada', qual é a afirmação correta?",
+        "opcoes": [
+            "Chover é condição necessária para a rua ficar molhada",
+            "A rua ficar molhada é condição suficiente para chover",
+            "Chover é condição suficiente para a rua ficar molhada",
+            "A rua ficar molhada causa chuva"
+        ],
+        "resposta_correta": "Chover é condição suficiente para a rua ficar molhada"
+    },
+    {
+        "id": 61,
+        "pergunta": "Qual é a principal limitação da lógica proposicional que é superada na lógica de predicados?",
+        "opcoes": ["A utilização de símbolos lógicos", "A capacidade de estabelecer características para determinados objetos e relacionamentos entre objetos", "A presença de conectivos lógicos", "A utilização de proposições simples"],
+        "resposta_correta": "A capacidade de estabelecer características para determinados objetos e relacionamentos entre objetos"
+    },
+    {
+        "id": 62,
+        "pergunta": "O símbolo ∀ representa qual quantificador na lógica de predicados?",
+        "opcoes": ["Existencial", "Temporal", "Universal", "Condicional"],
+        "resposta_correta": "Universal"
+    },
+    {
+        "id": 63,
+        "pergunta": "Como se lê a expressão '∃x: aprovado(x)'?",
+        "opcoes": ["Todo x está aprovado", "Não existe x aprovado", "Existe pelo menos um x tal que x está aprovado", "Se x existe, então x está aprovado"],
+        "resposta_correta": "Existe pelo menos um x tal que x está aprovado"
+    },
+    {
+        "id": 64,
+        "pergunta": "Na lógica de predicados, o predicado pode ser considerado como:",
+        "opcoes": ["Uma constante lógica", "Uma função que retorna um valor lógico", "Um conectivo", "Um símbolo proposicional"],
+        "resposta_correta": "Uma função que retorna um valor lógico"
+    },
+    {
+        "id": 65,
+        "pergunta": "Qual o significado do símbolo ↔ na lógica de predicados?",
+        "opcoes": ["Conjunção", "Disjunção", "Condicional", "Bicondicional"],
+        "resposta_correta": "Bicondicional"
+    },
+    {
+        "id": 66,
+        "pergunta": "Como seria representada em lógica de predicados a afirmação 'Ana é mulher'?",
+        "opcoes": ["mulher → Ana", "Ana(mulher)", "mulher(Ana)", "Ana ↔ mulher"],
+        "resposta_correta": "mulher(Ana)"
+    },
+    {
+        "id": 67,
+        "pergunta": "Na notação da lógica de predicados adotada na unidade, como devem ser escritos os nomes de predicados?",
+        "opcoes": ["Com todas as letras maiúsculas", "Com letra inicial maiúscula", "Com todas as letras minúsculas", "Com letra inicial minúscula"],
+        "resposta_correta": "Com letra inicial minúscula"
+    },
+    {
+        "id": 68,
+        "pergunta": "Na convenção adotada para a lógica de predicados na unidade, como devem ser escritos os nomes de variáveis?",
+        "opcoes": ["Com letra inicial maiúscula", "Entre aspas", "Com letra inicial minúscula", "Entre parênteses"],
+        "resposta_correta": "Com letra inicial minúscula"
+    },
+    {
+        "id": 69,
+        "pergunta": "Na lógica de predicados, qual é a interpretação correta de '∀x: R(x) → H(x)'?",
+        "opcoes": ["Existe um x tal que se x é R, então x é H", "Para todo x, x é R e x é H", "Para todo x, se x é R, então x é H", "Existe um x tal que x é R e x é H"],
+        "resposta_correta": "Para todo x, se x é R, então x é H"
+    },
+    {
+        "id": 70,
+        "pergunta": "Na lógica de predicados, a expressão '∃x: R(x) ∧ H(x)' significa:",
+        "opcoes": ["Todo x é R e H", "Existe pelo menos um x tal que x é R e x é H", "Para todo x, se x é R, então x é H", "Existe pelo menos um x tal que se x é R, então x é H"],
+        "resposta_correta": "Existe pelo menos um x tal que x é R e x é H"
+    },
+    {
+        "id": 71,
+        "pergunta": "Como seria representada em lógica de predicados a afirmação 'Madri é a capital da Espanha'?",
+        "opcoes": ["capital(Madri, Espanha)", "capital(Espanha, Madri)", "Madri(capital, Espanha)", "Espanha(capital, Madri)"],
+        "resposta_correta": "capital(Espanha, Madri)"
+    },
+    {
+        "id": 72,
+        "pergunta": "Na lógica de predicados, qual é a diferença entre os quantificadores ∀ e ∃?",
+        "opcoes": ["∀ exprime fatos sobre objetos particulares, enquanto ∃ exprime fatos sobre todos os objetos", "∀ exprime fatos sobre todos os objetos do universo, enquanto ∃ exprime fatos sobre objetos particulares", "∀ representa a disjunção, enquanto ∃ representa a conjunção", "∀ indica a negação, enquanto ∃ indica a condicional"],
+        "resposta_correta": "∀ exprime fatos sobre todos os objetos do universo, enquanto ∃ exprime fatos sobre objetos particulares"
+    },
+    {
+        "id": 73,
+        "pergunta": "Na linguagem Prolog, como devem ser escritas as variáveis?",
+        "opcoes": ["Com letra inicial minúscula", "Com todas as letras maiúsculas", "Com letra inicial maiúscula", "Entre aspas duplas"],
+        "resposta_correta": "Com letra inicial maiúscula"
+    },
+    {
+        "id": 74,
+        "pergunta": "Qual lógica permite melhor descrição e compreensão de situações complexas através do uso de quantificadores?",
+        "opcoes": ["Lógica proposicional", "Lógica de predicados", "Lógica fuzzy", "Lógica modal"],
+        "resposta_correta": "Lógica de predicados"
+    },
+    {
+        "id": 75,
+        "pergunta": "Como seria representada em lógica de predicados a proposição 'Todo aluno com nota maior ou igual a 7.0 está aprovado'?",
+        "opcoes": ["∃x: ∃n: nota(x, n) ∧ n >= 7.0 → aprovado(x)", "∀x: ∀n: nota(x, n) → n >= 7.0 ∧ aprovado(x)", "∀x: ∀n: nota(x, n) ∧ n >= 7.0 → aprovado(x)", "∃x: ∀n: nota(x, n) ∧ n >= 7.0 → aprovado(x)"],
+        "resposta_correta": "∀x: ∀n: nota(x, n) ∧ n >= 7.0 → aprovado(x)"
+    },
+    {
+        "id": 76,
+        "pergunta": "Na proposição lógica '∀x: ∀y: progenitor(x,y) ∧ homem(x) → pai(x,y)', qual é o significado em português?",
+        "opcoes": ["Todo homem é pai", "Se x é pai de y, então x é homem", "Se x é progenitor de y e x é homem, então x é pai de y", "Todo pai é homem"],
+        "resposta_correta": "Se x é progenitor de y e x é homem, então x é pai de y"
+    },
+    {
+        "id": 77,
+        "pergunta": "Qual símbolo é utilizado para representar a conjunção na lógica de predicados?",
+        "opcoes": ["∨", "→", "∧", "¬"],
+        "resposta_correta": "∧"
+    },
+    {
+        "id": 78,
+        "pergunta": "Como seria representada em lógica de predicados a proposição 'Se uma cidade é grande e é capital de um país, então é uma capital importante'?",
+        "opcoes": ["∀c, ∀p: cidadeGrande(c) → capital(p, c) ∧ capital_importante(c)", "∀c, ∀p: cidadeGrande(c) ∨ capital(p, c) → capital_importante(c)", "∀c, ∀p: cidadeGrande(c) ∧ capital(p, c) → capital_importante(c)", "∃c, ∃p: cidadeGrande(c) ∧ capital(p, c) → capital_importante(c)"],
+        "resposta_correta": "∀c, ∀p: cidadeGrande(c) ∧ capital(p, c) → capital_importante(c)"
+    },
+    {
+        "id": 79,
+        "pergunta": "Qual linguagem de programação utiliza como base teórica a lógica de predicados?",
+        "opcoes": ["Java", "C++", "Python", "Prolog"],
+        "resposta_correta": "Prolog"
+    },
+    {
+        "id": 80,
+        "pergunta": "Na lógica de predicados, o que significa a expressão '∀x∀y (irmãos(x,y) → irmãos(y,x))'?",
+        "opcoes": ["Todos são irmãos", "Se x e y são irmãos, então y e x são irmãos", "Para todo x, existe y, tal que x e y são irmãos", "Existe pelo menos um par de irmãos"],
+        "resposta_correta": "Se x e y são irmãos, então y e x são irmãos"
+    }
+]

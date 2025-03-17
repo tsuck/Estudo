@@ -15,10 +15,6 @@
         
         <main class="conteudo-principal">
             <div class="card">
-                <div class="timer-container">
-                    <div class="timer" id="timer">00:00:00</div>
-                    <div class="timer-label">Tempo Decorrido</div>
-                </div>
                 
                 <div class="progresso">
                     <div class="barra-progresso">
@@ -52,45 +48,5 @@
     </div>
     
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <script>
-        // Script para o temporizador
-        document.addEventListener('DOMContentLoaded', function() {
-            let segundos = 0;
-            let minutos = 0;
-            let horas = 0;
-            
-            function atualizarTimer() {
-                segundos++;
-                if (segundos >= 60) {
-                    segundos = 0;
-                    minutos++;
-                    if (minutos >= 60) {
-                        minutos = 0;
-                        horas++;
-                    }
-                }
-                
-                const timerElement = document.getElementById('timer');
-                timerElement.textContent = 
-                    (horas < 10 ? '0' + horas : horas) + ':' +
-                    (minutos < 10 ? '0' + minutos : minutos) + ':' +
-                    (segundos < 10 ? '0' + segundos : segundos);
-            }
-            
-            // Inicia o temporizador
-            setInterval(atualizarTimer, 1000);
-            
-            // Adiciona animações aos elementos da página
-            const questaoContainer = document.querySelector('.questao-container');
-            questaoContainer.classList.add('fade-in');
-            
-            const opcoes = document.querySelectorAll('.opcao-item');
-            opcoes.forEach((opcao, index) => {
-                setTimeout(() => {
-                    opcao.classList.add('slide-in');
-                }, 100 * index);
-            });
-        });
-    </script>
 </body>
 </html>

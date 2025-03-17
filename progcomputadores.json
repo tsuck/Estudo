@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual é a principal diferença entre listas e tuplas em Python?",
+        "opcoes": ["Listas podem armazenar mais elementos que tuplas", "Listas são mutáveis enquanto tuplas são imutáveis", "Listas são definidas com parênteses e tuplas com colchetes", "Listas só permitem um tipo de dado enquanto tuplas permitem múltiplos tipos"],
+        "resposta_correta": "Listas são mutáveis enquanto tuplas são imutáveis"
+    },
+    {
+        "id": 2,
+        "pergunta": "Como se declara uma lista vazia em Python?",
+        "opcoes": ["lista = {}", "lista = ()", "lista = []", "lista = <>"],
+        "resposta_correta": "lista = []"
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual método é utilizado para adicionar um elemento ao final de uma lista em Python?",
+        "opcoes": ["push()", "add()", "insert()", "append()"],
+        "resposta_correta": "append()"
+    },
+    {
+        "id": 4,
+        "pergunta": "Em Python, qual é o índice do primeiro elemento de uma lista?",
+        "opcoes": ["0", "1", "-1", "Nenhuma das alternativas"],
+        "resposta_correta": "0"
+    },
+    {
+        "id": 5,
+        "pergunta": "Como remover o último elemento de uma lista em Python?",
+        "opcoes": ["lista.delete()", "lista.remove()", "lista.pop()", "del lista[-1]"],
+        "resposta_correta": "lista.pop()"
+    },
+    {
+        "id": 6,
+        "pergunta": "Qual estrutura de dados em Python é definida por pares de chave/valor?",
+        "opcoes": ["Lista", "Tupla", "Dicionário", "String"],
+        "resposta_correta": "Dicionário"
+    },
+    {
+        "id": 7,
+        "pergunta": "Como acessar o valor associado à chave 'nome' em um dicionário chamado 'meuDicionario'?",
+        "opcoes": ["meuDicionario[nome]", "meuDicionario['nome']", "meuDicionario.nome", "meuDicionario->nome"],
+        "resposta_correta": "meuDicionario['nome']"
+    },
+    {
+        "id": 8,
+        "pergunta": "Qual método é utilizado para remover um elemento específico pelo seu valor em uma lista?",
+        "opcoes": ["delete()", "remove()", "pop()", "discard()"],
+        "resposta_correta": "remove()"
+    },
+    {
+        "id": 9,
+        "pergunta": "Em Python, qual instrução é utilizada para excluir completamente uma tupla?",
+        "opcoes": ["clear()", "remove()", "del", "erase()"],
+        "resposta_correta": "del"
+    },
+    {
+        "id": 10,
+        "pergunta": "Como remover o último elemento adicionado em um dicionário?",
+        "opcoes": ["dicionario.pop()", "dicionario.popitem()", "dicionario.remove()", "del dicionario[-1]"],
+        "resposta_correta": "dicionario.popitem()"
+    },
+    {
+        "id": 11,
+        "pergunta": "Qual a sintaxe correta para declarar um dicionário em Python?",
+        "opcoes": ["meuDicionario = {chave1:valor1, chave2:valor2}", "meuDicionario = [chave1=valor1, chave2=valor2]", "meuDicionario = (chave1->valor1, chave2->valor2)", "meuDicionario = <chave1:valor1, chave2:valor2>"],
+        "resposta_correta": "meuDicionario = {chave1:valor1, chave2:valor2}"
+    },
+    {
+        "id": 12,
+        "pergunta": "Qual característica permite que listas em Python armazenem diferentes tipos de dados em uma mesma variável?",
+        "opcoes": ["Homogeneidade", "Heterogeneidade", "Tipagem fraca", "Polimorfismo"],
+        "resposta_correta": "Heterogeneidade"
+    },
+    {
+        "id": 13,
+        "pergunta": "Qual operador é utilizado para verificar se um caractere ou sequência está presente em uma string?",
+        "opcoes": ["has", "in", "contains", "find"],
+        "resposta_correta": "in"
+    },
+    {
+        "id": 14,
+        "pergunta": "Em Python, como se concatena duas strings?",
+        "opcoes": ["Usando o operador &", "Usando o operador +", "Usando o operador *", "Usando o método concat()"],
+        "resposta_correta": "Usando o operador +"
+    },
+    {
+        "id": 15,
+        "pergunta": "Qual estrutura de repetição é ideal para percorrer os elementos de uma lista em Python?",
+        "opcoes": ["while", "do-while", "for", "foreach"],
+        "resposta_correta": "for"
+    },
+    {
+        "id": 16,
+        "pergunta": "O que acontece se tentarmos atualizar um elemento de uma tupla em Python?",
+        "opcoes": ["O elemento é atualizado normalmente", "A tupla é convertida em lista", "Ocorre um erro de execução", "O elemento é adicionado ao final da tupla"],
+        "resposta_correta": "Ocorre um erro de execução"
+    },
+    {
+        "id": 17,
+        "pergunta": "Como adicionar um novo par chave/valor a um dicionário existente?",
+        "opcoes": ["dicionario.add(chave, valor)", "dicionario.insert(chave, valor)", "dicionario[chave] = valor", "dicionario.append({chave: valor})"],
+        "resposta_correta": "dicionario[chave] = valor"
+    },
+    {
+        "id": 18,
+        "pergunta": "Qual o resultado da execução do código: lista = [1, 2, 3]; lista[0] = 5; print(lista)?",
+        "opcoes": ["[1, 2, 3]", "[5, 2, 3]", "[5, 1, 2, 3]", "Erro de execução"],
+        "resposta_correta": "[5, 2, 3]"
+    },
+    {
+        "id": 19,
+        "pergunta": "O que acontece quando usamos a função del em um elemento específico de uma lista?",
+        "opcoes": ["O elemento é substituído por None", "O elemento é removido e a lista é reorganizada", "A lista inteira é excluída", "O elemento é zerado (0 ou '')"],
+        "resposta_correta": "O elemento é removido e a lista é reorganizada"
+    },
+    {
+        "id": 20,
+        "pergunta": "Como se define uma string de múltiplas linhas em Python?",
+        "opcoes": ["Usando aspas simples múltiplas (' ')", "Usando aspas duplas múltiplas (\" \")", "Usando aspas triplas (''' ''' ou \"\"\" \"\"\")", "Usando o caractere de escape \\n"],
+        "resposta_correta": "Usando aspas triplas (''' ''' ou \"\"\" \"\"\")"
+    },
+    {
+        "id": 21,
+        "pergunta": "Qual é a principal diferença entre as estruturas de repetição 'for' e 'while' em Python?",
+        "opcoes": [
+            "O 'for' apenas executa blocos de código, enquanto o 'while' executa funções",
+            "O 'for' é executado por um número predefinido de vezes, enquanto o 'while' é repetido enquanto uma expressão for verdadeira",
+            "O 'for' só funciona com números inteiros, enquanto o 'while' funciona com qualquer tipo de dado",
+            "O 'for' não aceita condições lógicas, enquanto o 'while' exige pelo menos uma condição"
+        ],
+        "resposta_correta": "O 'for' é executado por um número predefinido de vezes, enquanto o 'while' é repetido enquanto uma expressão for verdadeira"
+    },
+    {
+        "id": 22,
+        "pergunta": "Na sintaxe da estrutura 'for' em Python, o que representa a 'variável de iteração'?",
+        "opcoes": [
+            "Uma variável que armazena o valor da quantidade de repetições",
+            "Uma variável que só pode ser usada dentro do loop",
+            "Uma variável através da qual identificamos a sequência de repetição durante a execução do loop",
+            "Uma variável que sempre deve ser declarada como 'i'"
+        ],
+        "resposta_correta": "Uma variável através da qual identificamos a sequência de repetição durante a execução do loop"
+    },
+    {
+        "id": 23,
+        "pergunta": "O que faz a função range(5) quando utilizada em uma estrutura 'for'?",
+        "opcoes": [
+            "Cria uma sequência com os números 1, 2, 3, 4 e 5",
+            "Cria uma sequência com os números 0, 1, 2, 3 e 4",
+            "Repete o loop exatamente 5 vezes sem criar uma sequência",
+            "Repete o loop até que o contador atinja o valor 5"
+        ],
+        "resposta_correta": "Cria uma sequência com os números 0, 1, 2, 3 e 4"
+    },
+    {
+        "id": 24,
+        "pergunta": "Qual será a saída do seguinte código Python?\nfor i in range(0, 15, 2):\n    print(i)",
+        "opcoes": [
+            "0 2 4 6 8 10 12 14",
+            "2 4 6 8 10 12 14",
+            "0 2 4 6 8 10 12",
+            "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14"
+        ],
+        "resposta_correta": "0 2 4 6 8 10 12 14"
+    },
+    {
+        "id": 25,
+        "pergunta": "Em Python, quando usamos a estrutura 'for' para percorrer uma string, o que acontece?",
+        "opcoes": [
+            "A string é convertida em uma lista de caracteres antes de ser percorrida",
+            "O loop é executado apenas uma vez, tratando a string como um único elemento",
+            "O loop percorre cada caractere da string, um por um",
+            "É necessário usar uma função especial para converter a string em algo iterável"
+        ],
+        "resposta_correta": "O loop percorre cada caractere da string, um por um"
+    },
+    {
+        "id": 26,
+        "pergunta": "O que acontece quando utilizamos a instrução 'break' dentro de um loop?",
+        "opcoes": [
+            "O loop atual é encerrado completamente",
+            "Apenas a iteração atual é interrompida, continuando na próxima",
+            "A variável de controle é resetada para o valor inicial",
+            "O programa inteiro é encerrado"
+        ],
+        "resposta_correta": "O loop atual é encerrado completamente"
+    },
+    {
+        "id": 27,
+        "pergunta": "Qual é o propósito da instrução 'continue' em uma estrutura de repetição?",
+        "opcoes": [
+            "Pular para o próximo loop aninhado",
+            "Ignorar o restante do código no loop atual e avançar para a próxima iteração",
+            "Continuar executando o loop mesmo se a condição se tornar falsa",
+            "Verificar se o loop deve continuar ou não"
+        ],
+        "resposta_correta": "Ignorar o restante do código no loop atual e avançar para a próxima iteração"
+    },
+    {
+        "id": 28,
+        "pergunta": "Em uma estrutura 'while True:', o que é necessário para evitar um loop infinito?",
+        "opcoes": [
+            "Uma variável contador que incrementa a cada iteração",
+            "Uma condição que eventualmente se torna falsa",
+            "A instrução 'break' em algum ponto do loop",
+            "Qualquer uma das alternativas anteriores"
+        ],
+        "resposta_correta": "Qualquer uma das alternativas anteriores"
+    },
+    {
+        "id": 29,
+        "pergunta": "Qual a saída do seguinte código?\ncontador = 0\nwhile contador < 10:\n    if contador == 1 or contador == 3:\n        contador += 1\n        continue\n    print(contador)\n    contador += 1",
+        "opcoes": [
+            "0 2 4 5 6 7 8 9",
+            "0 1 2 3 4 5 6 7 8 9",
+            "1 2 3 4 5 6 7 8 9",
+            "2 4 5 6 7 8 9"
+        ],
+        "resposta_correta": "0 2 4 5 6 7 8 9"
+    },
+    {
+        "id": 30,
+        "pergunta": "Qual código Python corretamente calcula a soma dos números de 1 a 10?",
+        "opcoes": [
+            "soma = 0\nfor i in range(10):\n    soma += i\nprint(soma)",
+            "soma = 0\nfor i in range(1, 11):\n    soma += i\nprint(soma)",
+            "soma = 0\nfor i in range(1, 10):\n    soma += i\nprint(soma)",
+            "soma = 0\ni = 1\nwhile i <= 10:\n    i += 1\n    soma += i\nprint(soma)"
+        ],
+        "resposta_correta": "soma = 0\nfor i in range(1, 11):\n    soma += i\nprint(soma)"
+    },
+    {
+        "id": 31,
+        "pergunta": "O que acontece se definirmos um valor negativo como terceiro parâmetro na função range()?",
+        "opcoes": [
+            "Ocorre um erro, pois o incremento não pode ser negativo",
+            "A sequência é gerada em ordem decrescente",
+            "O loop nunca é executado",
+            "A sequência é gerada em ordem crescente, ignorando o valor negativo"
+        ],
+        "resposta_correta": "A sequência é gerada em ordem decrescente"
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual é a forma correta de criar um loop que percorra os números 20, 15, 10, 5 e 0 nesta ordem?",
+        "opcoes": [
+            "for i in range(20, -1, -5):",
+            "for i in range(0, 21, 5):",
+            "for i in range(20, -5, -5):",
+            "for i in [20, 15, 10, 5, 0]:"
+        ],
+        "resposta_correta": "for i in range(20, -1, -5):"
+    },
+    {
+        "id": 33,
+        "pergunta": "Se quisermos identificar todos os números múltiplos de 4 em um intervalo de 1 a 20, qual estrutura seria mais adequada?",
+        "opcoes": [
+            "Um loop while com uma condição que verifica se o número é divisível por 4",
+            "Um loop for com range(1, 21) e uma condição if para verificar se o resto da divisão por 4 é zero",
+            "Um loop for com range(4, 21, 4) que já gera diretamente os múltiplos de 4",
+            "Qualquer uma das alternativas anteriores resolve o problema corretamente"
+        ],
+        "resposta_correta": "Qualquer uma das alternativas anteriores resolve o problema corretamente"
+    },
+    {
+        "id": 34,
+        "pergunta": "Dado o código a seguir, qual será a saída?\nfor i in range(3):\n    for j in range(2):\n        print(i*j, end=' ')",
+        "opcoes": [
+            "0 0 0 1 0 2",
+            "0 0 1 1 2 2",
+            "0 0 1 2 2 4",
+            "0 0 0 1 0 2"
+        ],
+        "resposta_correta": "0 0 0 1 0 2"
+    },
+    {
+        "id": 35,
+        "pergunta": "Qual a diferença entre usar uma variável booleana para controlar um loop while e usar while True com break?",
+        "opcoes": [
+            "Não há diferença prática, ambos os métodos têm o mesmo efeito",
+            "Usar uma variável booleana permite mais controle sobre quando o loop termina",
+            "Usar while True com break é mais eficiente em termos de processamento",
+            "Usar uma variável booleana é a única forma de evitar loops infinitos"
+        ],
+        "resposta_correta": "Usar uma variável booleana permite mais controle sobre quando o loop termina"
+    },
+    {
+        "id": 36,
+        "pergunta": "O que acontece se uma estrutura while não modificar a variável ou condição de controle durante sua execução?",
+        "opcoes": [
+            "O Python detecta automaticamente e encerra o loop após 1000 iterações",
+            "O loop será executado apenas uma vez e depois encerrado",
+            "Ocorre um erro de sintaxe durante a compilação",
+            "O loop será executado infinitamente (loop infinito)"
+        ],
+        "resposta_correta": "O loop será executado infinitamente (loop infinito)"
+    },
+    {
+        "id": 37,
+        "pergunta": "Qual código calcula corretamente a média de valores digitados pelo usuário?",
+        "opcoes": [
+            "qtd = int(input('Quantos valores? '))\nsoma = 0\nfor i in range(qtd):\n    soma += float(input('Digite um valor: '))\nmedia = soma / qtd\nprint(media)",
+            "qtd = input('Quantos valores? ')\nsoma = 0\nfor i in range(qtd):\n    soma += input('Digite um valor: ')\nmedia = soma / qtd\nprint(media)",
+            "qtd = int(input('Quantos valores? '))\nsoma = 0\nwhile qtd > 0:\n    soma += float(input('Digite um valor: '))\n    qtd -= 1\nmedia = soma\nprint(media)",
+            "soma = 0\ncontador = 0\nwhile True:\n    valor = float(input('Digite um valor ou 0 para sair: '))\n    if valor == 0:\n        break\n    soma += valor\n    contador += 1\nmedia = soma / contador\nprint(media)"
+        ],
+        "resposta_correta": "qtd = int(input('Quantos valores? '))\nsoma = 0\nfor i in range(qtd):\n    soma += float(input('Digite um valor: '))\nmedia = soma / qtd\nprint(media)"
+    },
+    {
+        "id": 38,
+        "pergunta": "Como podemos usar um loop para encontrar o maior valor em uma lista de números?",
+        "opcoes": [
+            "maior = 0\nfor num in lista:\n    if num > maior:\n        maior = num",
+            "maior = lista[0]\nfor num in lista:\n    if num > maior:\n        maior = num",
+            "maior = min(lista)\nfor num in lista:\n    if num > maior:\n        maior = num",
+            "maior = -1\nfor num in lista:\n    maior = max(maior, num)"
+        ],
+        "resposta_correta": "maior = lista[0]\nfor num in lista:\n    if num > maior:\n        maior = num"
+    },
+    {
+        "id": 39,
+        "pergunta": "O que acontece quando executamos o código: 'for i in range(5): print(i)'?",
+        "opcoes": [
+            "Imprime os números de 1 a 5",
+            "Imprime os números de 0 a 4",
+            "Imprime os números de 0 a 5",
+            "Imprime 5 vezes o valor 0"
+        ],
+        "resposta_correta": "Imprime os números de 0 a 4"
+    },
+    {
+        "id": 40,
+        "pergunta": "Qual é o resultado do seguinte código?\nsoma = 0\nfor i in range(1, 6):\n    if i % 2 == 0:\n        continue\n    soma += i\nprint(soma)",
+        "opcoes": [
+            "6",
+            "9",
+            "10",
+            "15"
+        ],
+        "resposta_correta": "9"
+    },
+    {
+        "id": 41,
+        "pergunta": "Qual é o nome do criador da linguagem Python?",
+        "opcoes": ["Bjarne Stroustrup", "Guido van Rossum", "James Gosling", "Rasmus Lerdorf"],
+        "resposta_correta": "Guido van Rossum"
+    },
+    {
+        "id": 42,
+        "pergunta": "Em que década foi criada a linguagem Python?",
+        "opcoes": ["1970", "1980", "1990", "2000"],
+        "resposta_correta": "1980"
+    },
+    {
+        "id": 43,
+        "pergunta": "Qual é a origem do nome da linguagem Python?",
+        "opcoes": ["Uma espécie de cobra", "Um programa de TV inglês", "O nome de seu criador", "Uma montanha na Grécia"],
+        "resposta_correta": "Um programa de TV inglês"
+    },
+    {
+        "id": 44,
+        "pergunta": "Qual característica NÃO se aplica à linguagem Python?",
+        "opcoes": ["Interpretada", "Orientada a objetos", "Compilada antes da execução", "Uso geral"],
+        "resposta_correta": "Compilada antes da execução"
+    },
+    {
+        "id": 45,
+        "pergunta": "Qual das seguintes opções está correta em relação à tipagem no Python?",
+        "opcoes": ["Tipagem estática", "Tipagem dinâmica (Duck typing)", "Tipagem forte apenas", "Tipagem explícita obrigatória"],
+        "resposta_correta": "Tipagem dinâmica (Duck typing)"
+    },
+    {
+        "id": 46,
+        "pergunta": "Qual das seguintes NÃO é uma área de aplicação comum para Python?",
+        "opcoes": ["Desenvolvimento Web", "Desenvolvimento de jogos", "Compilação de sistemas operacionais", "Inteligência Artificial"],
+        "resposta_correta": "Compilação de sistemas operacionais"
+    },
+    {
+        "id": 47,
+        "pergunta": "Qual framework Python é comumente usado para desenvolvimento web?",
+        "opcoes": ["PyQt", "PyGame", "Django", "PySoy"],
+        "resposta_correta": "Django"
+    },
+    {
+        "id": 48,
+        "pergunta": "O que significa a opção 'Add Python to PATH' durante a instalação?",
+        "opcoes": ["Cria um atalho na área de trabalho", "Cria as variáveis de sistema no Windows", "Instala bibliotecas adicionais", "Configura o firewall para o Python"],
+        "resposta_correta": "Cria as variáveis de sistema no Windows"
+    },
+    {
+        "id": 49,
+        "pergunta": "Qual é a função do IDLE no Python?",
+        "opcoes": ["Gerenciador de pacotes", "Editor de scripts", "Máquina virtual", "Compilador"],
+        "resposta_correta": "Editor de scripts"
+    },
+    {
+        "id": 50,
+        "pergunta": "Qual função é usada para exibir informações na tela em Python?",
+        "opcoes": ["display()", "show()", "print()", "output()"],
+        "resposta_correta": "print()"
+    },
+    {
+        "id": 51,
+        "pergunta": "O que é um identificador em Python?",
+        "opcoes": ["Uma palavra reservada", "Um nome usado para identificar variáveis, funções e outros objetos", "Um tipo de dados", "Um operador"],
+        "resposta_correta": "Um nome usado para identificar variáveis, funções e outros objetos"
+    },
+    {
+        "id": 52,
+        "pergunta": "Qual das seguintes regras NÃO é válida para nomear variáveis em Python?",
+        "opcoes": ["Podem conter letras e números", "Podem começar com números", "Podem conter sublinhados", "Não podem ser palavras reservadas"],
+        "resposta_correta": "Podem começar com números"
+    },
+    {
+        "id": 53,
+        "pergunta": "Qual é o operador usado para atribuir valores a variáveis em Python?",
+        "opcoes": ["==", "=>", "=", ":="],
+        "resposta_correta": "="
+    },
+    {
+        "id": 54,
+        "pergunta": "Qual das seguintes é uma palavra reservada em Python?",
+        "opcoes": ["variable", "print", "while", "python"],
+        "resposta_correta": "while"
+    },
+    {
+        "id": 55,
+        "pergunta": "Qual função é usada para obter entrada do usuário em Python?",
+        "opcoes": ["get()", "scan()", "input()", "read()"],
+        "resposta_correta": "input()"
+    },
+    {
+        "id": 56,
+        "pergunta": "Qual método é usado para converter uma string em um número inteiro em Python?",
+        "opcoes": ["int()", "integer()", "convert()", "parse()"],
+        "resposta_correta": "int()"
+    },
+    {
+        "id": 57,
+        "pergunta": "Qual método é usado para converter uma string em um número real (ponto flutuante) em Python?",
+        "opcoes": ["real()", "decimal()", "float()", "double()"],
+        "resposta_correta": "float()"
+    },
+    {
+        "id": 58,
+        "pergunta": "Qual afirmação é verdadeira sobre a função input() em Python?",
+        "opcoes": ["Sempre retorna um valor inteiro", "Sempre retorna uma string", "Sempre retorna um valor booleano", "O tipo de retorno depende do valor inserido"],
+        "resposta_correta": "Sempre retorna uma string"
+    },
+    {
+        "id": 59,
+        "pergunta": "O que acontece se tentarmos converter uma string não numérica para um número usando int()?",
+        "opcoes": ["A string é convertida para 0", "A string é convertida para NULL", "Ocorre um erro de execução", "A string permanece inalterada"],
+        "resposta_correta": "Ocorre um erro de execução"
+    },
+    {
+        "id": 60,
+        "pergunta": "Qual característica do Python permite que uma mesma variável armazene diferentes tipos de dados durante a execução do programa?",
+        "opcoes": ["Tipagem estática", "Tipagem dinâmica", "Tipagem forte", "Conversão automática"],
+        "resposta_correta": "Tipagem dinâmica"
+    },
+    {
+        "id": 61,
+        "pergunta": "Qual é a finalidade principal da função open() em Python?",
+        "opcoes": ["Executar um arquivo Python", "Abrir um arquivo para leitura ou escrita", "Criar uma nova pasta no sistema", "Exibir o conteúdo de um arquivo na tela"],
+        "resposta_correta": "Abrir um arquivo para leitura ou escrita"
+    },
+    {
+        "id": 62,
+        "pergunta": "Qual parâmetro deve ser utilizado na função open() para abrir um arquivo apenas para leitura?",
+        "opcoes": ["w", "r", "a", "r+"],
+        "resposta_correta": "r"
+    },
+    {
+        "id": 63,
+        "pergunta": "Qual função é utilizada para ler todas as linhas de um arquivo e armazená-las em uma única variável?",
+        "opcoes": ["read()", "readline()", "readlines()", "readall()"],
+        "resposta_correta": "readlines()"
+    },
+    {
+        "id": 64,
+        "pergunta": "Após abrir um arquivo para manipulação, qual função deve ser executada ao finalizar o uso do arquivo?",
+        "opcoes": ["end()", "finish()", "close()", "exit()"],
+        "resposta_correta": "close()"
+    },
+    {
+        "id": 65,
+        "pergunta": "Para escrever em um arquivo texto, qual parâmetro deve ser utilizado na função open()?",
+        "opcoes": ["r", "w", "x", "a"],
+        "resposta_correta": "w"
+    },
+    {
+        "id": 66,
+        "pergunta": "Qual é a função utilizada para escrever conteúdo em um arquivo texto já aberto?",
+        "opcoes": ["write()", "put()", "insert()", "append()"],
+        "resposta_correta": "write()"
+    },
+    {
+        "id": 67,
+        "pergunta": "Qual função lê apenas uma linha por vez de um arquivo texto?",
+        "opcoes": ["read()", "readline()", "readone()", "readtext()"],
+        "resposta_correta": "readline()"
+    },
+    {
+        "id": 68,
+        "pergunta": "Para abrir um arquivo tanto para leitura quanto para escrita simultaneamente, qual parâmetro deve ser utilizado na função open()?",
+        "opcoes": ["r+", "w+", "rw", "wr"],
+        "resposta_correta": "r+"
+    },
+    {
+        "id": 69,
+        "pergunta": "Qual é a principal característica do Google Colab mencionada no texto?",
+        "opcoes": ["É uma IDE offline", "É um serviço de nuvem gratuito", "Não suporta a linguagem Python", "Requer instalação local"],
+        "resposta_correta": "É um serviço de nuvem gratuito"
+    },
+    {
+        "id": 70,
+        "pergunta": "Onde são armazenados os notebooks criados no Google Colab?",
+        "opcoes": ["Apenas localmente", "No Google Drive", "Apenas no GitHub", "Em um servidor FTP"],
+        "resposta_correta": "No Google Drive"
+    },
+    {
+        "id": 71,
+        "pergunta": "O que acontece quando utilizamos a função read() em um arquivo texto?",
+        "opcoes": ["Lê apenas a primeira linha", "Lê todo o conteúdo do arquivo", "Apenas verifica se o arquivo existe", "Lê um caractere por vez"],
+        "resposta_correta": "Lê todo o conteúdo do arquivo"
+    },
+    {
+        "id": 72,
+        "pergunta": "Como podemos fazer upload de um arquivo texto para o Google Colab?",
+        "opcoes": ["Clicando no ícone da pasta e depois em upload", "Utilizando a função load() do Python", "Escrevendo o caminho completo do arquivo", "Não é possível fazer upload de arquivos para o Colab"],
+        "resposta_correta": "Clicando no ícone da pasta e depois em upload"
+    },
+    {
+        "id": 73,
+        "pergunta": "O que significa a sigla IDE mencionada no texto?",
+        "opcoes": ["Interface de Dados Essenciais", "Integração de Desenvolvimento de Equipes", "Interface de Desenvolvimento Estendido", "Integrated Development Environment"],
+        "resposta_correta": "Integrated Development Environment"
+    },
+    {
+        "id": 74,
+        "pergunta": "Qual instrução Python é utilizada para imprimir o conteúdo de uma variável na tela?",
+        "opcoes": ["show()", "display()", "print()", "output()"],
+        "resposta_correta": "print()"
+    },
+    {
+        "id": 75,
+        "pergunta": "Se um arquivo for aberto no modo 'w' e já existir, o que acontecerá com seu conteúdo?",
+        "opcoes": ["O conteúdo será preservado", "Um erro será gerado", "O conteúdo será sobrescrito", "O conteúdo será movido para um arquivo de backup"],
+        "resposta_correta": "O conteúdo será sobrescrito"
+    },
+    {
+        "id": 76,
+        "pergunta": "Qual a estrutura de repetição ideal para percorrer todas as linhas lidas de um arquivo texto usando readlines()?",
+        "opcoes": ["while", "for", "do-while", "repeat-until"],
+        "resposta_correta": "for"
+    },
+    {
+        "id": 77,
+        "pergunta": "Qual característica do Google Colab facilita o trabalho em equipe?",
+        "opcoes": ["Execução rápida de código", "Possibilidade de compartilhar notebooks", "Suporte a múltiplas linguagens", "Capacidade de processamento ilimitada"],
+        "resposta_correta": "Possibilidade de compartilhar notebooks"
+    },
+    {
+        "id": 78,
+        "pergunta": "O que representa a seguinte linha de código: 'arquivo = open(\"dados.txt\", \"r\")'?",
+        "opcoes": ["Cria um novo arquivo chamado dados.txt", "Abre o arquivo dados.txt para escrita", "Abre o arquivo dados.txt para leitura", "Fecha o arquivo dados.txt após manipulação"],
+        "resposta_correta": "Abre o arquivo dados.txt para leitura"
+    },
+    {
+        "id": 79,
+        "pergunta": "Para criar um arquivo texto a partir do zero em Python, qual modo de abertura deve ser utilizado?",
+        "opcoes": ["r", "a", "w", "r+"],
+        "resposta_correta": "w"
+    },
+    {
+        "id": 80,
+        "pergunta": "Qual é a vantagem de utilizar a estrutura 'with open() as arquivo:' para manipulação de arquivos?",
+        "opcoes": ["Aumenta a velocidade de processamento", "Fecha automaticamente o arquivo ao final do bloco", "Permite abrir múltiplos arquivos simultaneamente", "Criptografa o conteúdo do arquivo"],
+        "resposta_correta": "Fecha automaticamente o arquivo ao final do bloco"
+    },
+    {
+        "id": 81,
+        "pergunta": "Qual operador aritmético é utilizado para calcular o resto de uma divisão em Python?",
+        "opcoes": ["%", "//", "**", "/"],
+        "resposta_correta": "%"
+    },
+    {
+        "id": 82,
+        "pergunta": "Considerando a ordem de precedência dos operadores em Python, qual operação será executada primeiro na expressão: 5 + 2 * 3?",
+        "opcoes": ["Adição", "Multiplicação", "Ambas ao mesmo tempo", "Da esquerda para a direita"],
+        "resposta_correta": "Multiplicação"
+    },
+    {
+        "id": 83,
+        "pergunta": "Em Python, qual é o resultado da expressão 9 // 2?",
+        "opcoes": ["4.5", "4", "4.0", "5"],
+        "resposta_correta": "4"
+    },
+    {
+        "id": 84,
+        "pergunta": "Qual operador lógico em Python retorna verdadeiro se pelo menos uma das expressões for verdadeira?",
+        "opcoes": ["and", "or", "not", "xor"],
+        "resposta_correta": "or"
+    },
+    {
+        "id": 85,
+        "pergunta": "Qual é a função do operador '==' em Python?",
+        "opcoes": ["Atribuição de valor", "Verificar igualdade", "Concatenação", "Exponenciação"],
+        "resposta_correta": "Verificar igualdade"
+    },
+    {
+        "id": 86,
+        "pergunta": "Qual é o resultado da expressão: 2 ** 3?",
+        "opcoes": ["6", "8", "5", "9"],
+        "resposta_correta": "8"
+    },
+    {
+        "id": 87,
+        "pergunta": "Em uma estrutura de decisão if...elif...else, o que acontece quando a condição do if é verdadeira?",
+        "opcoes": ["O bloco do elif é executado", "O bloco do else é executado", "O bloco do if é executado", "Nenhum bloco é executado"],
+        "resposta_correta": "O bloco do if é executado"
+    },
+    {
+        "id": 88,
+        "pergunta": "Qual é o operador de concatenação de strings em Python?",
+        "opcoes": ["+", "&", "||", ","],
+        "resposta_correta": "+"
+    },
+    {
+        "id": 89,
+        "pergunta": "Na expressão (a + b) * c / d, qual operação é executada por último de acordo com a precedência de operadores?",
+        "opcoes": ["Adição", "Multiplicação", "Divisão", "Parênteses"],
+        "resposta_correta": "Divisão"
+    },
+    {
+        "id": 90,
+        "pergunta": "O operador lógico 'and' em Python retorna verdadeiro quando:",
+        "opcoes": ["Pelo menos uma expressão é verdadeira", "Todas as expressões são verdadeiras", "Nenhuma expressão é verdadeira", "A primeira expressão é verdadeira"],
+        "resposta_correta": "Todas as expressões são verdadeiras"
+    },
+    {
+        "id": 91,
+        "pergunta": "Em Python, qual estrutura de decisão é utilizada quando precisamos testar múltiplas condições sequencialmente?",
+        "opcoes": ["if", "if...else", "if...elif", "switch"],
+        "resposta_correta": "if...elif"
+    },
+    {
+        "id": 92,
+        "pergunta": "Qual será o valor da variável 'resultado' após a execução do código: a = 5; b = 3; resultado = a * b + 2?",
+        "opcoes": ["17", "11", "23", "8"],
+        "resposta_correta": "17"
+    },
+    {
+        "id": 93,
+        "pergunta": "Em uma estrutura de decisão encadeada, o que ocorre quando uma condição interna retorna falso?",
+        "opcoes": ["O programa é encerrado", "A próxima instrução é executada", "O bloco correspondente ao 'else' é executado", "Retorna ao início do algoritmo"],
+        "resposta_correta": "O bloco correspondente ao 'else' é executado"
+    },
+    {
+        "id": 94,
+        "pergunta": "Qual operador relacional verifica se um valor é diferente de outro em Python?",
+        "opcoes": ["<>", "==", "!=", "><"],
+        "resposta_correta": "!="
+    },
+    {
+        "id": 95,
+        "pergunta": "Considerando a = 10 e b = 5, qual será o resultado da expressão 'not(a < b)'?",
+        "opcoes": ["False", "True", "None", "Error"],
+        "resposta_correta": "True"
+    },
+    {
+        "id": 96,
+        "pergunta": "Em qual ordem os operadores são avaliados em uma expressão com múltiplos operadores da mesma prioridade?",
+        "opcoes": ["Da direita para a esquerda", "Da esquerda para a direita", "Aleatoriamente", "De acordo com o tamanho da expressão"],
+        "resposta_correta": "Da esquerda para a direita"
+    },
+    {
+        "id": 97,
+        "pergunta": "Qual será o resultado da expressão '2 + 3 * 4 ** 2'?",
+        "opcoes": ["50", "48", "80", "20"],
+        "resposta_correta": "50"
+    },
+    {
+        "id": 98,
+        "pergunta": "Em um programa que avalia se um aluno foi aprovado ou não, qual estrutura de decisão seria mais adequada quando existem apenas duas possibilidades (aprovado ou reprovado)?",
+        "opcoes": ["if", "if...elif", "if...else", "switch...case"],
+        "resposta_correta": "if...else"
+    },
+    {
+        "id": 99,
+        "pergunta": "O que acontece quando nenhuma condição é verdadeira em uma estrutura if...elif...else?",
+        "opcoes": ["O programa retorna um erro", "O programa finaliza", "O bloco do else é executado", "Nada acontece"],
+        "resposta_correta": "O bloco do else é executado"
+    },
+    {
+        "id": 100,
+        "pergunta": "Considerando a = 5 e b = 2, qual será o resultado da expressão 'a / b' em Python?",
+        "opcoes": ["2", "2.5", "2.0", "3"],
+        "resposta_correta": "2.5"
+    }
+]
