@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções - Sistema de Estudos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titulo-principal">Instruções da Prova</h1>
+            <div class="subtitulo">Leia com atenção antes de começar</div>
+        </header>
+        
+        <main class="conteudo-principal">
+            <div class="card">
+                <section class="instrucoes-item">
+                    <h2>Regras Gerais</h2>
+                    <p>Entenda como funciona a plataforma de avaliação:</p>
+                    <ul>
+                        <li>Cada prova contém 10 questões selecionadas aleatoriamente</li>
+                        <li>Você deve selecionar apenas uma resposta por questão</li>
+                        <li>Cada questão vale 10 pontos, totalizando 100 pontos</li>
+                        <li>Para ser aprovado, você precisa obter pelo menos 60 pontos</li>
+                        <li>Não há limite de tempo, mas um cronômetro mostrará quanto tempo você está utilizando</li>
+                    </ul>
+                </section>
+                
+                <section class="instrucoes-item">
+                    <h2>Durante a Prova</h2>
+                    <p>Para uma melhor experiência:</p>
+                    <ul>
+                        <li>Leia atentamente cada questão antes de responder</li>
+                        <li>O cronômetro será exibido na tela para que você possa gerenciar seu tempo</li>
+                        <li>Para avançar para a próxima questão, selecione uma resposta e clique em "Próxima"</li>
+                        <li>Não é possível voltar para questões anteriores depois de respondidas</li>
+                    </ul>
+                </section>
+                
+                <section class="instrucoes-item">
+                    <h2>Resultados</h2>
+                    <p>Ao final da prova:</p>
+                    <ul>
+                        <li>Você receberá sua pontuação total</li>
+                        <li>O sistema indicará se você foi aprovado ou não</li>
+                        <li>Você poderá ver o tempo total que utilizou</li>
+                        <li>Será apresentado um feedback com as questões corretas e incorretas</li>
+                        <li>Você poderá realizar a prova novamente com novas questões aleatórias</li>
+                    </ul>
+                </section>
+                
+                <div class="acoes">
+                    <a href="{{ url_for('pagina_inicial') }}" class="botao botao-secundario">Voltar</a>
+                    <a href="{{ url_for('iniciar_prova') }}" class="botao botao-principal">Iniciar Prova</a>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Sistema de Estudos - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

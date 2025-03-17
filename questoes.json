@@ -1,0 +1,792 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual é o principal objetivo da aprendizagem de máquina?",
+        "opcoes": ["Melhorar o desempenho de tarefas por meio da experiência", "Criar sistemas que não precisam de dados", "Eliminar a necessidade de programação", "Substituir completamente os humanos em todas as tarefas"],
+        "resposta_correta": "Melhorar o desempenho de tarefas por meio da experiência"
+    },
+    {
+        "id": 2,
+        "pergunta": "Quais são os três tipos principais de aprendizagem de máquina?",
+        "opcoes": ["Supervisionada, Não supervisionada, Por reforço", "Indutiva, Dedutiva, Estatística", "Linear, Não linear, Probabilística", "Classificação, Regressão, Agrupamento"],
+        "resposta_correta": "Supervisionada, Não supervisionada, Por reforço"
+    },
+    {
+        "id": 3,
+        "pergunta": "O que caracteriza a aprendizagem supervisionada?",
+        "opcoes": ["Uso de dados pré-classificados para treinamento", "Ausência de qualquer tipo de supervisão", "Aprendizado baseado apenas em recompensas", "Formação de conceitos sem intervenção humana"],
+        "resposta_correta": "Uso de dados pré-classificados para treinamento"
+    },
+    {
+        "id": 4,
+        "pergunta": "O que é aprendizagem não supervisionada?",
+        "opcoes": ["Aprendizado sem intervenção humana ou dados pré-classificados", "Aprendizado baseado em recompensas e punições", "Aprendizado com dados pré-classificados", "Aprendizado que requer supervisão constante"],
+        "resposta_correta": "Aprendizado sem intervenção humana ou dados pré-classificados"
+    },
+    {
+        "id": 5,
+        "pergunta": "Qual é um exemplo de aprendizagem por reforço?",
+        "opcoes": ["Um robô que recebe recompensas por pegar objetos corretamente", "Um algoritmo que classifica e-mails como spam", "Um sistema que agrupa clientes por comportamento de compra", "Um modelo que prevê o tempo com base em dados históricos"],
+        "resposta_correta": "Um robô que recebe recompensas por pegar objetos corretamente"
+    },
+    {
+        "id": 6,
+        "pergunta": "O que é uma árvore de decisão?",
+        "opcoes": ["Um modelo que toma decisões com base em atributos de entrada", "Um algoritmo que agrupa dados sem supervisão", "Um método de aprendizado por reforço", "Uma técnica de classificação baseada em probabilidades"],
+        "resposta_correta": "Um modelo que toma decisões com base em atributos de entrada"
+    },
+    {
+        "id": 7,
+        "pergunta": "Qual é a principal característica da aprendizagem indutiva?",
+        "opcoes": ["Aprender a partir de exemplos para generalizar para novas situações", "Aprender sem qualquer tipo de dados de treinamento", "Aprender apenas com recompensas e punições", "Aprender sem a necessidade de generalização"],
+        "resposta_correta": "Aprender a partir de exemplos para generalizar para novas situações"
+    },
+    {
+        "id": 8,
+        "pergunta": "O que é a probabilidade a priori?",
+        "opcoes": ["A probabilidade de um evento sem qualquer informação adicional", "A probabilidade de um evento dado outro evento", "A probabilidade de um evento impossível", "A probabilidade de um evento certo"],
+        "resposta_correta": "A probabilidade de um evento sem qualquer informação adicional"
+    },
+    {
+        "id": 9,
+        "pergunta": "Qual é a fórmula do teorema de Bayes?",
+        "opcoes": ["P(A|B) = P(B|A) * P(A) / P(B)", "P(A) = P(B) * P(A|B)", "P(A|B) = P(A) + P(B)", "P(A|B) = P(A) * P(B)"],
+        "resposta_correta": "P(A|B) = P(B|A) * P(A) / P(B)"
+    },
+    {
+        "id": 10,
+        "pergunta": "O que é a hipótese MAP (Máximo A Posteriori)?",
+        "opcoes": ["A hipótese com a maior probabilidade dado os dados observados", "A hipótese com a menor probabilidade dado os dados observados", "A hipótese mais simples possível", "A hipótese que ignora os dados observados"],
+        "resposta_correta": "A hipótese com a maior probabilidade dado os dados observados"
+    },
+    {
+        "id": 11,
+        "pergunta": "Qual é a probabilidade de sortear uma mulher em um grupo de 8 pessoas, sendo 4 homens e 4 mulheres?",
+        "opcoes": ["50%", "25%", "75%", "100%"],
+        "resposta_correta": "50%"
+    },
+    {
+        "id": 12,
+        "pergunta": "Qual é a probabilidade de sair um número maior que 4 em um dado de seis lados?",
+        "opcoes": ["33%", "50%", "66%", "25%"],
+        "resposta_correta": "33%"
+    },
+    {
+        "id": 13,
+        "pergunta": "O que é a probabilidade condicional?",
+        "opcoes": ["A probabilidade de um evento dado que outro evento ocorreu", "A probabilidade de um evento sem qualquer informação adicional", "A probabilidade de um evento impossível", "A probabilidade de um evento certo"],
+        "resposta_correta": "A probabilidade de um evento dado que outro evento ocorreu"
+    },
+    {
+        "id": 14,
+        "pergunta": "Qual é a probabilidade de tirar duas cartas de copas consecutivas de um baralho de 52 cartas, sem reposição?",
+        "opcoes": ["5.88%", "10%", "25%", "50%"],
+        "resposta_correta": "5.88%"
+    },
+    {
+        "id": 15,
+        "pergunta": "Qual é a probabilidade de um evento impossível?",
+        "opcoes": ["0", "1", "0.5", "0.75"],
+        "resposta_correta": "0"
+    },
+    {
+        "id": 16,
+        "pergunta": "Qual é a probabilidade de um evento certo?",
+        "opcoes": ["1", "0", "0.5", "0.75"],
+        "resposta_correta": "1"
+    },
+    {
+        "id": 17,
+        "pergunta": "O que é a inferência bayesiana?",
+        "opcoes": ["Um método de raciocínio probabilístico baseado no teorema de Bayes", "Um método de aprendizado sem supervisão", "Um método de classificação baseado em árvores de decisão", "Um método de aprendizado por reforço"],
+        "resposta_correta": "Um método de raciocínio probabilístico baseado no teorema de Bayes"
+    },
+    {
+        "id": 18,
+        "pergunta": "Qual é a principal vantagem da aprendizagem bayesiana?",
+        "opcoes": ["Utilizar probabilidades conhecidas para inferir novos conhecimentos", "Não requerer qualquer tipo de dados de treinamento", "Ser completamente independente de qualquer cálculo probabilístico", "Ignorar completamente a incerteza nos dados"],
+        "resposta_correta": "Utilizar probabilidades conhecidas para inferir novos conhecimentos"
+    },
+    {
+        "id": 19,
+        "pergunta": "Qual é a principal desvantagem da aprendizagem estatística de máquina?",
+        "opcoes": ["Alto custo computacional devido ao processamento estatístico", "Incapacidade de lidar com dados complexos", "Dependência exclusiva de dados não supervisionados", "Falta de precisão nas previsões"],
+        "resposta_correta": "Alto custo computacional devido ao processamento estatístico"
+    },
+    {
+        "id": 20,
+        "pergunta": "O que é o classificador Naïve Bayes?",
+        "opcoes": ["Um algoritmo de classificação baseado no teorema de Bayes", "Um método de aprendizado por reforço", "Um tipo de árvore de decisão", "Um algoritmo de agrupamento não supervisionado"],
+        "resposta_correta": "Um algoritmo de classificação baseado no teorema de Bayes"
+    },
+    {
+        "id": 21,
+        "pergunta": "Qual é a definição de Inteligência Artificial proposta por Elaine Rich e Kevin Knight?",
+        "opcoes": [
+            "O estudo de como fazer os computadores realizarem coisas que, no momento, as pessoas fazem melhor",
+            "O ramo da ciência da computação que se ocupa da automatização da conduta inteligente",
+            "O estudo de cálculos que permitam perceber, raciocinar e atuar",
+            "Fazer a máquina comportar-se de tal forma que seja chamada inteligente caso fosse o comportamento de um ser humano"
+        ],
+        "resposta_correta": "O estudo de como fazer os computadores realizarem coisas que, no momento, as pessoas fazem melhor"
+    },
+    {
+        "id": 22,
+        "pergunta": "Qual foi a principal contribuição de John McCarthy para a Inteligência Artificial?",
+        "opcoes": [
+            "Criação da linguagem de programação LISP",
+            "Proposta do nome 'Inteligência Artificial' em 1956",
+            "Desenvolvimento do Teste de Turing",
+            "Criação da linguagem PROLOG"
+        ],
+        "resposta_correta": "Proposta do nome 'Inteligência Artificial' em 1956"
+    },
+    {
+        "id": 23,
+        "pergunta": "Qual é a hipótese do sistema de símbolos físicos proposta por Newell e Simon?",
+        "opcoes": [
+            "Um sistema físico é inteligente se e somente se ele for um processador simbólico geral",
+            "A inteligência artificial deve imitar o comportamento humano em todos os aspectos",
+            "A inteligência artificial deve ser baseada em redes neurais",
+            "A inteligência artificial deve ser capaz de aprender sem supervisão"
+        ],
+        "resposta_correta": "Um sistema físico é inteligente se e somente se ele for um processador simbólico geral"
+    },
+    {
+        "id": 24,
+        "pergunta": "Qual é o objetivo do Teste de Turing?",
+        "opcoes": [
+            "Determinar se uma máquina pode exibir comportamento inteligente indistinguível de um humano",
+            "Avaliar a capacidade de uma máquina de resolver problemas complexos",
+            "Medir a velocidade de processamento de uma máquina",
+            "Testar a capacidade de uma máquina de aprender sem supervisão"
+        ],
+        "resposta_correta": "Determinar se uma máquina pode exibir comportamento inteligente indistinguível de um humano"
+    },
+    {
+        "id": 25,
+        "pergunta": "Qual das seguintes áreas NÃO é diretamente relacionada à Inteligência Artificial?",
+        "opcoes": [
+            "Percepção",
+            "Linguagem Natural",
+            "Controle de robôs",
+            "Engenharia Civil"
+        ],
+        "resposta_correta": "Engenharia Civil"
+    },
+    {
+        "id": 26,
+        "pergunta": "Qual é a principal característica do conhecimento, segundo a Inteligência Artificial?",
+        "opcoes": [
+            "É indispensável e está constantemente mudando",
+            "É estático e imutável",
+            "É fácil de caracterizar com precisão",
+            "Não precisa ser compreendido pelas pessoas que o utilizam"
+        ],
+        "resposta_correta": "É indispensável e está constantemente mudando"
+    },
+    {
+        "id": 27,
+        "pergunta": "Qual é a diferença entre dados, informação e conhecimento?",
+        "opcoes": [
+            "Dados são fatos brutos, informação é dados processados, e conhecimento é a aplicação da informação",
+            "Dados, informação e conhecimento são sinônimos",
+            "Dados são informações processadas, e conhecimento é a interpretação dos dados",
+            "Informação é a mesma coisa que conhecimento, e dados são irrelevantes"
+        ],
+        "resposta_correta": "Dados são fatos brutos, informação é dados processados, e conhecimento é a aplicação da informação"
+    },
+    {
+        "id": 28,
+        "pergunta": "Qual é a principal diferença entre o enfoque simbólico e o conexionista na Inteligência Artificial?",
+        "opcoes": [
+            "O enfoque simbólico baseia-se em sistemas de símbolos, enquanto o conexionista baseia-se em redes neurais",
+            "O enfoque simbólico é baseado em redes neurais, enquanto o conexionista é baseado em lógica",
+            "O enfoque simbólico é focado em aprendizado por reforço, enquanto o conexionista é focado em aprendizado supervisionado",
+            "O enfoque simbólico e o conexionista são a mesma coisa"
+        ],
+        "resposta_correta": "O enfoque simbólico baseia-se em sistemas de símbolos, enquanto o conexionista baseia-se em redes neurais"
+    },
+    {
+        "id": 29,
+        "pergunta": "Qual é a principal característica de um sistema inteligente?",
+        "opcoes": [
+            "Capacidade de raciocinar, resolver problemas e aprender",
+            "Capacidade de processar grandes volumes de dados rapidamente",
+            "Capacidade de realizar cálculos matemáticos complexos",
+            "Capacidade de armazenar informações indefinidamente"
+        ],
+        "resposta_correta": "Capacidade de raciocinar, resolver problemas e aprender"
+    },
+    {
+        "id": 30,
+        "pergunta": "Qual é a principal contribuição de Alan Turing para a Inteligência Artificial?",
+        "opcoes": [
+            "Proposta do Teste de Turing",
+            "Criação da linguagem de programação LISP",
+            "Desenvolvimento de redes neurais",
+            "Criação da linguagem PROLOG"
+        ],
+        "resposta_correta": "Proposta do Teste de Turing"
+    },
+    {
+        "id": 31,
+        "pergunta": "Qual é a principal característica da abordagem 'Pensando como Humanos' na Inteligência Artificial?",
+        "opcoes": [
+            "Modelagem do pensamento humano através de experimentos psicológicos",
+            "Implementação de processos de raciocínio lógico irrefutáveis",
+            "Uso de redes neurais para simular a inteligência humana",
+            "Foco em sistemas que agem de forma autônoma"
+        ],
+        "resposta_correta": "Modelagem do pensamento humano através de experimentos psicológicos"
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual é a principal característica da abordagem 'Agindo Racionalmente' na Inteligência Artificial?",
+        "opcoes": [
+            "Sistemas que agem de forma autônoma, percebem o ambiente e se adaptam a mudanças",
+            "Sistemas que imitam o comportamento humano em todos os aspectos",
+            "Sistemas que utilizam lógica simbólica para resolver problemas",
+            "Sistemas que aprendem sem supervisão"
+        ],
+        "resposta_correta": "Sistemas que agem de forma autônoma, percebem o ambiente e se adaptam a mudanças"
+    },
+    {
+        "id": 33,
+        "pergunta": "Qual é a principal característica da linguagem de programação LISP?",
+        "opcoes": [
+            "Processamento simbólico e programação funcional",
+            "Uso exclusivo para redes neurais",
+            "Foco em aprendizado por reforço",
+            "Desenvolvimento de sistemas especialistas"
+        ],
+        "resposta_correta": "Processamento simbólico e programação funcional"
+    },
+    {
+        "id": 34,
+        "pergunta": "Qual é a principal característica da linguagem de programação PROLOG?",
+        "opcoes": [
+            "Programação lógica e processamento simbólico",
+            "Uso exclusivo para aprendizado supervisionado",
+            "Foco em redes neurais artificiais",
+            "Desenvolvimento de sistemas de controle de robôs"
+        ],
+        "resposta_correta": "Programação lógica e processamento simbólico"
+    },
+    {
+        "id": 35,
+        "pergunta": "Qual é a principal característica do conhecimento na Inteligência Artificial?",
+        "opcoes": [
+            "É volumoso e difícil de caracterizar com precisão",
+            "É estático e imutável",
+            "É fácil de representar e processar",
+            "Não precisa ser compreendido pelas pessoas que o utilizam"
+        ],
+        "resposta_correta": "É volumoso e difícil de caracterizar com precisão"
+    },
+    {
+        "id": 36,
+        "pergunta": "Qual é a principal característica da abordagem 'Pensando Racionalmente' na Inteligência Artificial?",
+        "opcoes": [
+            "Implementação de processos de raciocínio lógico irrefutáveis",
+            "Modelagem do pensamento humano através de experimentos psicológicos",
+            "Uso de redes neurais para simular a inteligência humana",
+            "Foco em sistemas que agem de forma autônoma"
+        ],
+        "resposta_correta": "Implementação de processos de raciocínio lógico irrefutáveis"
+    },
+    {
+        "id": 37,
+        "pergunta": "Qual é a principal característica da abordagem 'Agindo como Humanos' na Inteligência Artificial?",
+        "opcoes": [
+            "Sistemas que imitam o comportamento humano em todos os aspectos",
+            "Sistemas que utilizam lógica simbólica para resolver problemas",
+            "Sistemas que aprendem sem supervisão",
+            "Sistemas que agem de forma autônoma"
+        ],
+        "resposta_correta": "Sistemas que imitam o comportamento humano em todos os aspectos"
+    },
+    {
+        "id": 38,
+        "pergunta": "Qual é a principal característica do sistema de símbolos físicos de Newell e Simon?",
+        "opcoes": [
+            "Transformação de estruturas de símbolos através de processos",
+            "Uso exclusivo de redes neurais para processamento de símbolos",
+            "Foco em aprendizado por reforço",
+            "Desenvolvimento de sistemas especialistas"
+        ],
+        "resposta_correta": "Transformação de estruturas de símbolos através de processos"
+    },
+    {
+        "id": 39,
+        "pergunta": "Qual é a principal característica da lógica de predicados na Inteligência Artificial?",
+        "opcoes": [
+            "Permite representar e processar conhecimento de forma simbólica",
+            "É usada exclusivamente para aprendizado supervisionado",
+            "Foca em redes neurais artificiais",
+            "É usada para controle de robôs"
+        ],
+        "resposta_correta": "Permite representar e processar conhecimento de forma simbólica"
+    },
+    {
+        "id": 40,
+        "pergunta": "Qual é a principal característica da lógica nebulosa (fuzzy logic) na Inteligência Artificial?",
+        "opcoes": [
+            "Permite lidar com incertezas e imprecisões no conhecimento",
+            "É usada exclusivamente para aprendizado por reforço",
+            "Foca em redes neurais artificiais",
+            "É usada para representação de conhecimento exato"
+        ],
+        "resposta_correta": "Permite lidar com incertezas e imprecisões no conhecimento"
+    },
+    {
+        "id": 41,
+        "pergunta": "Qual é a definição simplificada de inteligência artificial?",
+        "opcoes": ["Capacidade de compreender e aprender", "Apenas máquinas que imitam humanos", "Tecnologia sem inteligência", "Processos naturais"],
+        "resposta_correta": "Capacidade de compreender e aprender"
+        },
+        {
+        "id": 42,
+        "pergunta": "Quem é considerado um dos precursores da inteligência artificial?",
+        "opcoes": ["Albert Einstein", "Alan Turing", "Isaac Newton", "Charles Babbage"],
+        "resposta_correta": "Alan Turing"
+        },
+        {
+        "id": 43,
+        "pergunta": "Qual foi um dos objetivos de Alan Turing ao desenvolver testes com máquinas?",
+        "opcoes": ["Criar máquinas que não falham", "Fazer máquinas se passarem por humanos", "Desenvolver jogos de computador", "Aumentar a velocidade de processamento"],
+        "resposta_correta": "Fazer máquinas se passarem por humanos"
+        },
+        {
+        "id": 44,
+        "pergunta": "Qual é uma das áreas que emergiu devido aos fracassos na inteligência artificial?",
+        "opcoes": ["Biologia", "Engenharia de software", "Astronomia", "Física quântica"],
+        "resposta_correta": "Engenharia de software"
+        },
+        {
+        "id": 45,
+        "pergunta": "Qual é um dos principais desafios atuais da inteligência artificial?",
+        "opcoes": ["Criar máquinas mais rápidas", "Diferenciar entre humanos e robôs", "Reduzir custos de produção", "Aumentar a capacidade de armazenamento"],
+        "resposta_correta": "Diferenciar entre humanos e robôs"
+        },
+        {
+        "id": 46,
+        "pergunta": "Qual é uma das definições de inteligência artificial mencionadas?",
+        "opcoes": ["Máquinas que não aprendem", "Estudo das faculdades mentais usando modelos computacionais", "Apenas programação de computadores", "Tecnologia sem interação"],
+        "resposta_correta": "Estudo das faculdades mentais usando modelos computacionais"
+        },
+        {
+        "id": 47,
+        "pergunta": "Qual é a relação entre inteligência artificial e o comportamento humano?",
+        "opcoes": ["Não há relação", "A IA imita o comportamento humano", "A IA é oposta ao comportamento humano", "A IA ignora o comportamento humano"],
+        "resposta_correta": "A IA imita o comportamento humano"
+        },
+        {
+        "id": 48,
+        "pergunta": "Qual é um dos aspectos associados aos processos de IA?",
+        "opcoes": ["Pensamento como humano", "Apenas cálculos matemáticos", "Desenvolvimento de hardware", "Eliminação de erros"],
+        "resposta_correta": "Pensamento como humano"
+        },
+        {
+        "id": 49,
+        "pergunta": "Qual é uma característica da inteligência humana que a IA busca replicar?",
+        "opcoes": ["Capacidade de sentir emoções", "Tomada de decisões", "Necessidade de descanso", "Memória infinita"],
+        "resposta_correta": "Tomada de decisões"
+        },
+        {
+        "id": 50,
+        "pergunta": "Qual é um dos principais objetivos da inteligência artificial?",
+        "opcoes": ["Criar máquinas que não precisam de humanos", "Automatizar atividades que exigem pensamento humano", "Substituir completamente os humanos", "Desenvolver novos tipos de energia"],
+        "resposta_correta": "Automatizar atividades que exigem pensamento humano"
+        },
+        {
+        "id": 51,
+        "pergunta": "Qual é uma das abordagens relacionadas à IA mencionadas no material?",
+        "opcoes": ["Como os neurônios se comunicam", "Como construir computadores mais rápidos", "Como aumentar a capacidade de armazenamento", "Como criar redes sociais"],
+        "resposta_correta": "Como os neurônios se comunicam"
+        },
+        {
+        "id": 52,
+        "pergunta": "Qual é um dos desafios enfrentados pela IA na atualidade?",
+        "opcoes": ["Desenvolver novos algoritmos", "Compreender a fala humana", "Criar máquinas que não falham", "Reduzir o consumo de energia"],
+        "resposta_correta": "Compreender a fala humana"
+        },
+        {
+        "id": 53,
+        "pergunta": "Qual é uma das definições de 'pensar racionalmente' na IA?",
+        "opcoes": ["Apenas seguir regras", "Estudo das faculdades mentais usando modelos computacionais", "Imitar o comportamento humano", "Desenvolver máquinas que não pensam"],
+        "resposta_correta": "Estudo das faculdades mentais usando modelos computacionais"
+        },
+        {
+        "id": 54,
+        "pergunta": "Qual é a expectativa inicial em relação ao avanço da IA após a Segunda Guerra Mundial?",
+        "opcoes": ["Que a IA superaria a inteligência humana rapidamente", "Que a IA seria um fracasso total", "Que a IA não teria impacto", "Que a IA seria apenas uma curiosidade"],
+        "resposta_correta": "Que a IA superaria a inteligência humana rapidamente"
+        },
+        {
+        "id": 55,
+        "pergunta": "Qual é um dos elementos que compõem os processos de IA?",
+        "opcoes": ["Interação social", "Compreensão de padrões", "Desenvolvimento de hardware", "Aumento de velocidade"],
+        "resposta_correta": "Compreensão de padrões"
+        },
+        {
+        "id": 56,
+        "pergunta": "Qual é uma das categorias estruturadas por Russell e Norvig sobre os processos de IA?",
+        "opcoes": ["Pensamento como humano", "Apenas cálculos matemáticos", "Desenvolvimento de software", "Eliminação de erros"],
+        "resposta_correta": "Pensamento como humano"
+        },
+        {
+        "id": 57,
+        "pergunta": "Qual é uma das características que distingue a inteligência artificial da inteligência humana?",
+        "opcoes": ["A IA não sente emoções", "A IA é mais rápida", "A IA não aprende", "A IA não pode ser programada"],
+        "resposta_correta": "A IA não sente emoções"
+        },
+        {
+        "id": 58,
+        "pergunta": "Qual é um dos objetivos da IA em relação à resolução de problemas?",
+        "opcoes": ["Resolver problemas simples apenas", "Resolver problemas complexos como humanos", "Apenas seguir instruções", "Não resolver problemas"],
+        "resposta_correta": "Resolver problemas complexos como humanos"
+        },
+        {
+        "id": 59,
+        "pergunta": "Qual é uma das implicações do avanço da IA na sociedade?",
+        "opcoes": ["Aumento do desemprego", "Melhoria na qualidade de vida", "Desigualdade social", "Aumento da burocracia"],
+        "resposta_correta": "Melhoria na qualidade de vida"
+        },
+        {
+        "id": 60,
+        "pergunta": "Qual é uma das áreas que a IA pode impactar significativamente?",
+        "opcoes": ["Educação", "Agricultura", "Saúde", "Todas as anteriores"],
+        "resposta_correta": "Todas as anteriores"
+        },
+        {
+            "id": 61,
+            "pergunta": "Quais linguagens de programação são destacadas na unidade de estudo?",
+            "opcoes": ["Python e Java", "C++ e C#", "PROLOG e LISP", "Ruby e Swift"],
+            "resposta_correta": "PROLOG e LISP"
+        },
+        {
+            "id": 62,
+            "pergunta": "Qual é o foco principal das linguagens PROLOG e LISP na inteligência artificial?",
+            "opcoes": ["Programação orientada a objetos", "Processamento simbólico", "Desenvolvimento web", "Análise de dados"],
+            "resposta_correta": "Processamento simbólico"
+        },
+        {
+            "id": 63,
+            "pergunta": "Em PROLOG, como se chama a estrutura que contém informações e relações?",
+            "opcoes": ["Regras", "Fatos", "Consultas", "Predicados"],
+            "resposta_correta": "Fatos"
+        },
+        {
+            "id": 64,
+            "pergunta": "Qual é a sintaxe correta para um predicado em PROLOG?",
+            "opcoes": ["nomepredicado(paramA, paramB)", "nomepredicado[paramA; paramB]", "nomepredicado{paramA, paramB}", "nomepredicado:paramA, paramB"],
+            "resposta_correta": "nomepredicado(paramA, paramB)"
+        },
+        {
+            "id": 65,
+            "pergunta": "Qual operador é utilizado em PROLOG para definir uma regra?",
+            "opcoes": [":=", ":-", "=", "->"],
+            "resposta_correta": ":-"
+        },
+        {
+            "id": 66,
+            "pergunta": "Como são representadas listas em PROLOG?",
+            "opcoes": ["{elem1, elem2}", "[elem1, elem2]", "<elem1, elem2>", "(elem1, elem2)"],
+            "resposta_correta": "[elem1, elem2]"
+        },
+        {
+            "id": 67,
+            "pergunta": "Qual é a função do operador '|' em listas no PROLOG?",
+            "opcoes": ["Separar elementos", "Definir o início da lista", "Indicar a cabeça e a cauda", "Conectar listas"],
+            "resposta_correta": "Indicar a cabeça e a cauda"
+        },
+        {
+            "id": 68,
+            "pergunta": "Qual é a maneira correta de iniciar uma consulta em PROLOG?",
+            "opcoes": ["?- consulta", "consulta()", "consulta?", "consulta:"],
+            "resposta_correta": "?- consulta"
+        },
+        {
+            "id": 69,
+            "pergunta": "Como são chamados os parâmetros que começam com letra maiúscula em PROLOG?",
+            "opcoes": ["Constantes", "Variáveis", "Fatos", "Regras"],
+            "resposta_correta": "Variáveis"
+        },
+        {
+            "id": 70,
+            "pergunta": "Qual é o propósito das regras em PROLOG?",
+            "opcoes": ["Definir variáveis", "Estabelecer procedimentos", "Criar listas", "Executar cálculos"],
+            "resposta_correta": "Estabelecer procedimentos"
+        },
+        {
+            "id": 71,
+            "pergunta": "Qual é a característica principal da programação em PROLOG?",
+            "opcoes": ["Programação imperativa", "Programação descritiva", "Programação funcional", "Programação orientada a objetos"],
+            "resposta_correta": "Programação descritiva"
+        },
+        {
+            "id": 72,
+            "pergunta": "Como se define um fato em PROLOG?",
+            "opcoes": ["fato(paramA, paramB).", "fato[paramA, paramB].", "fato{paramA, paramB}.", "fato:paramA, paramB."],
+            "resposta_correta": "fato(paramA, paramB)."
+        },
+        {
+            "id": 73,
+            "pergunta": "Qual é a estrutura de uma consulta que verifica a existência de um fato em PROLOG?",
+            "opcoes": ["?- fato(paramA, paramB).", "?- fato[paramA; paramB].", "?- fato{paramA, paramB}.", "?- fato:paramA, paramB."],
+            "resposta_correta": "?- fato(paramA, paramB)."
+        },
+        {
+            "id": 74,
+            "pergunta": "Qual é a diferença entre um fato e uma regra em PROLOG?",
+            "opcoes": ["Fatos têm condições, regras não.", "Fatos são afirmativos, regras são condicionais.", "Regras não podem ser consultadas.", "Fatos não têm parâmetros."],
+            "resposta_correta": "Fatos são afirmativos, regras são condicionais."
+        },
+        {
+            "id": 75,
+            "pergunta": "Como se pode verificar se um elemento pertence a uma lista em PROLOG?",
+            "opcoes": ["Usando o operador 'in'", "Usando uma regra recursiva", "Usando uma função interna", "Não é possível verificar"],
+            "resposta_correta": "Usando uma regra recursiva"
+        },
+        {
+            "id": 76,
+            "pergunta": "Qual é a função do predicado 'write' em PROLOG?",
+            "opcoes": ["Ler dados do usuário", "Exibir dados na tela", "Salvar dados em arquivo", "Criar uma nova regra"],
+            "resposta_correta": "Exibir dados na tela"
+        },
+        {
+            "id": 77,
+            "pergunta": "Qual é a estrutura de uma lista na forma cabeça e cauda em PROLOG?",
+            "opcoes": ["[Cabeça | Cauda]", "{Cabeça, Cauda}", "(Cabeça; Cauda)", "[Cabeça; Cauda]"],
+            "resposta_correta": "[Cabeça | Cauda]"
+        },
+        {
+            "id": 78,
+            "pergunta": "Qual é o operador utilizado para verificar múltiplos objetivos em uma consulta em PROLOG?",
+            "opcoes": [";", ",", "||", "&&"],
+            "resposta_correta": ","
+        },
+        {
+            "id": 79,
+            "pergunta": "Qual é a utilidade de variáveis em consultas PROLOG?",
+            "opcoes": ["Definir novos fatos", "Armazenar resultados temporários", "Representar valores desconhecidos", "Criar novas regras"],
+            "resposta_correta": "Representar valores desconhecidos"
+        },
+        {
+            "id": 80,
+            "pergunta": "Qual é o valor lógico atribuído à proposição 'A chuva caiu ontem' se essa afirmação é verdadeira?",
+            "opcoes": ["Verdadeiro", "Falso", "Indeterminado", "Nulo"],
+            "resposta_correta": "Verdadeiro"
+            },
+            {
+            "id": 81,
+            "pergunta": "Na lógica proposicional, qual conectivo lógico representa a conjunção?",
+            "opcoes": ["e", "ou", "não", "se... então"],
+            "resposta_correta": "e"
+            },
+            {
+            "id": 82,
+            "pergunta": "Qual é a equivalência da negação de uma disjunção de duas proposições segundo a lei de De Morgan?",
+            "opcoes": ["~p ∨ ~q", "~p Λ ~q", "p Λ q", "p ∨ q"],
+            "resposta_correta": "~p Λ ~q"
+            },
+            {
+            "id": 83,
+            "pergunta": "Como a lógica proposicional poderia ser utilizada para representar a afirmação 'Se o usuário está logado, ele pode acessar o conteúdo'?",
+            "opcoes": ["p → q", "p ∧ q", "p ∨ q", "~p"],
+            "resposta_correta": "p → q"
+            },
+            {
+            "id": 84,
+            "pergunta": "Qual é a principal função da lógica de predicados na representação do conhecimento?",
+            "opcoes": ["Store facts", "Perform arithmetic operations", "Establish relationships", "Simplify statements"],
+            "resposta_correta": "Establish relationships"
+            },
+            {
+            "id": 85,
+            "pergunta": "Qual é a definição de um predicado na lógica de predicados?",
+            "opcoes": ["Uma proposição verdadeira", "Uma função que retorna um valor lógico", "Um conectivo lógico", "Um operador aritmético"],
+            "resposta_correta": "Uma função que retorna um valor lógico"
+            },
+            {
+            "id": 86,
+            "pergunta": "Qual a principal limitação da lógica proposicional em comparação à lógica de predicados?",
+            "opcoes": ["Não pode armazenar conhecimento", "Não pode lidar com incertezas", "Não pode expressar disjunções", "Não pode realizar inferências"],
+            "resposta_correta": "Não pode lidar com incertezas"
+            },
+            {
+            "id": 87,
+            "pergunta": "O que caracteriza uma rede neural artificial?",
+            "opcoes": ["Utilização de regras lógicas", "Estruturas inspiradas no funcionamento do cérebro", "Conectivos lógicos", "Estruturas hierárquicas"],
+            "resposta_correta": "Estruturas inspiradas no funcionamento do cérebro"
+            },
+            {
+            "id": 88,
+            "pergunta": "Qual é o propósito das regras de produção em sistemas especialistas?",
+            "opcoes": ["Realizar operações matemáticas", "Tomar decisões baseadas em condições", "Armazenar dados", "Representar informações gráficas"],
+            "resposta_correta": "Tomar decisões baseadas em condições"
+            },
+            {
+            "id": 89,
+            "pergunta": "Em uma regra de produção, o que é um antecedente?",
+            "opcoes": ["A conclusão da regra", "As condições que precisam ser atendidas", "O resultado da lógica", "Um tipo de proposição"],
+            "resposta_correta": "As condições que precisam ser atendidas"
+            },
+            {
+            "id": 90,
+            "pergunta": "Qual a função do operador de fuzzy na lógica nebulosa?",
+            "opcoes": ["Aumentar a precisão", "Introduzir graus de incerteza", "Simplificar proposições", "Remover variáveis"],
+            "resposta_correta": "Introduzir graus de incerteza"
+            },
+            {
+            "id": 91,
+            "pergunta": "Qual é um exemplo de uma afirmativa que utilizaria a lógica de predicados?",
+            "opcoes": ["É noite", "Todos os humanos são mortais", "O sol é uma estrela", "O fogo queima"],
+            "resposta_correta": "Todos os humanos são mortais"
+            },
+            {
+            "id": 92,
+            "pergunta": "Qual é a forma correta de representar a frase 'Se chover, então não sairemos' em lógica proposicional?",
+            "opcoes": ["p → ~q", "~p → q", "p ∧ q", "p ∨ q"],
+            "resposta_correta": "p → ~q"
+            },
+            {
+            "id": 93,
+            "pergunta": "Em uma rede neural, qual é a função das camadas ocultas?",
+            "opcoes": ["Conectar a entrada à saída", "Aumentar a complexidade do modelo", "Armazenar dados temporariamente", "Realizar operações aritméticas"],
+            "resposta_correta": "Aumentar a complexidade do modelo"
+            },
+            {
+            "id": 94,
+            "pergunta": "Que tipo de problemas a lógica fuzzy é especialmente útil para resolver?",
+            "opcoes": ["Problemas que requerem precisão absoluta", "Problemas com incertezas ou imprecisões", "Problemas matemáticos simples", "Problemas que não envolvem decisões"],
+            "resposta_correta": "Problemas com incertezas ou imprecisões"
+            },
+            {
+            "id": 95,
+            "pergunta": "No contexto das redes neurais, o que são pesos?",
+            "opcoes": ["Valores que ajustam a força das conexões entre os neurônios", "A quantidade de neurônios na rede", "A taxa de aprendizado", "Valores fixos em uma rede"],
+            "resposta_correta": "Valores que ajustam a força das conexões entre os neurônios"
+            },
+            {
+            "id": 96,
+            "pergunta": "Qual é uma característica das redes neurais artificiais quando comparadas às técnicas tradicionais de IA?",
+            "opcoes": ["São mais simples e menos flexíveis", "São mais complexas e podem aprender com os dados", "Exigem mais lógica proposicional", "Não dependem de dados"],
+            "resposta_correta": "São mais complexas e podem aprender com os dados"
+            },
+            {
+            "id": 97,
+            "pergunta": "Qual é a estrutura básica de uma regra de produção?",
+            "opcoes": ["Se (antecedente) então (consequente)", "Antecedente e consequência são iguais", "Apenas consequência", "Apenas antecedente"],
+            "resposta_correta": "Se (antecedente) então (consequente)"
+            },
+            {
+                "id": 98,
+                "pergunta": "Qual é a principal diferença entre um problema e um exercício na resolução de desafios?",
+                "opcoes": ["Um exercício é mais complexo que um problema", "Um problema tem uma solução óbvia", "Um exercício exige mais reflexão", "Um problema pode não ter uma solução definida"],
+                "resposta_correta": "Um problema pode não ter uma solução definida"
+                },
+                {
+                "id": 99,
+                "pergunta": "Como os algoritmos são avaliados em relação à sua eficiência?",
+                "opcoes": ["Pela quantidade de dados processados", "Pela notação big-O", "Pela facilidade de implementação", "Pela velocidade de execução apenas"],
+                "resposta_correta": "Pela notação big-O"
+                },
+                {
+                "id": 100,
+                "pergunta": "O que significa a notação O(log n) em termos de eficiência?",
+                "opcoes": ["É um algoritmo com complexidade linear", "É um algoritmo muito eficiente", "Representa ineficiência em grandes dados", "É um tipo de busca não informada"],
+                "resposta_correta": "É um algoritmo muito eficiente"
+                },
+                {
+                "id": 101,
+                "pergunta": "Qual é a caracteristica de um algoritmo com eficiência O(n²)?",
+                "opcoes": ["Muito eficiente em grandes dados", "Menos eficiente em comparação a O(n)", "Melhor que O(log n)", "Linearmente escalável"],
+                "resposta_correta": "Menos eficiente em comparação a O(n)"
+                },
+                {
+                "id": 102,
+                "pergunta": "Qual dos métodos a seguir não envolve a utilização de heurísticas na busca?",
+                "opcoes": ["Busca sem informação", "Busca em profundidade", "Busca heurística", "Busca em largura"],
+                "resposta_correta": "Busca sem informação"
+                },
+                {
+                "id": 103,
+                "pergunta": "Qual é o objetivo de buscar soluções ótimas em problemas?",
+                "opcoes": ["Simplificar a solução", "Minimizar o tempo e recursos utilizados", "Resolver apenas problemas complexos", "Aumentar a dificuldade da solução"],
+                "resposta_correta": "Minimizar o tempo e recursos utilizados"
+                },
+                {
+                "id": 104,
+                "pergunta": "O que caracteriza uma busca em extensão?",
+                "opcoes": ["Busca todas as soluções possíveis", "Retorna apenas a solução mais rápida", "É uma busca heurística", "Utiliza menos memória"],
+                "resposta_correta": "Busca todas as soluções possíveis"
+                },
+                {
+                "id": 105,
+                "pergunta": "Quais são os elementos principais em um espaço de estados na resolução de problemas?",
+                "opcoes": ["Nós e arcos", "Variáveis e funções", "Dados e resultados", "Valores e operadores"],
+                "resposta_correta": "Nós e arcos"
+                },
+                {
+                "id": 106,
+                "pergunta": "Qual é a implicação de se utilizar um método estocástico na resolução de problemas?",
+                "opcoes": ["Procurar soluções exatas", "Utilizar informações probabilísticas", "Fornecer soluções instantâneas", "Ser mais eficiente que a busca em profundidade"],
+                "resposta_correta": "Utilizar informações probabilísticas"
+                },
+                {
+                "id": 107,
+                "pergunta": "O que define a completeza de um algoritmo na busca por soluções?",
+                "opcoes": ["Encontrar sempre a solução correta", "Utilizar a menor quantidade de recursos", "Chegar a uma solução com base em dados limitados", "Alcançar a solução em tempo hábil"],
+                "resposta_correta": "Encontrar sempre a solução correta"
+                },
+                {
+                "id": 108,
+                "pergunta": "Quais são os estados em um espaço de estados em busca?",
+                "opcoes": ["Somente o estado inicial", "Estados parciais, intermediários ou finais", "Apenas estados finais", "Estabelecimentos de soluções"],
+                "resposta_correta": "Estados parciais, intermediários ou finais"
+                },
+                {
+                "id": 109,
+                "pergunta": "Em busca heurística, o que ajuda a encontrar soluções mais eficientes?",
+                "opcoes": ["Conhecimento prévio do problema", "Aumentar a complexidade do algoritmo", "Utilização de dados aleatórios", "Soluções múltiplas"],
+                "resposta_correta": "Conhecimento prévio do problema"
+                },
+                {
+                "id": 110,
+                "pergunta": "Quais são as duas principais considerações de eficiência colocadas na análise de algoritmos?",
+                "opcoes": ["Tempo e custo", "Custo e espaço", "Velocidade e memória", "Tempo e memória"],
+                "resposta_correta": "Tempo e memória"
+                },
+                {
+                "id": 111,
+                "pergunta": "O que caracteriza uma solução intratável em algoritmos?",
+                "opcoes": ["Dificuldade em encontrar soluções", "Soluções em tempo linear", "Complexidade exponencial", "Soluções otimizadas"],
+                "resposta_correta": "Complexidade exponencial"
+                },
+                {
+                "id": 112,
+                "pergunta": "Como os problemas de satisfação de restrições são representados na busca?",
+                "opcoes": ["Como expressões matemáticas", "Através de grafos de restrições", "Utilizando matriz de dados", "Com funções de custo"],
+                "resposta_correta": "Através de grafos de restrições"
+                },
+                {
+                "id": 113,
+                "pergunta": "Quais são os testes que devem ser realizados para validar uma solução na busca?",
+                "opcoes": ["Teste de eficiência e tempo", "Teste de objetivo e estados finais", "Teste de complexidade e natureza", "Teste de desempenho e metodologia"],
+                "resposta_correta": "Teste de objetivo e estados finais"
+                },
+                {
+                "id": 114,
+                "pergunta": "Qual método envolve agentes que competem entre si na busca por soluções?",
+                "opcoes": ["Busca em largura", "Busca competitiva", "Busca em profundidade", "Busca em profundidade limitada"],
+                "resposta_correta": "Busca competitiva"
+                },
+                {
+                "id": 115,
+                "pergunta": "Como é conhecida a análise assintótica utilizada para verificar a eficiência de um algoritmo?",
+                "opcoes": ["Análise logarítmica", "Análise de custo", "Análise de desempenho", "Análise assintótica"],
+                "resposta_correta": "Análise assintótica"
+                }
+]

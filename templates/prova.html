@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova - Sistema de Estudos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titulo-principal">Prova de Conhecimentos</h1>
+            <div class="subtitulo">Questão {{ numero_questao }} de {{ total_questoes }}</div>
+        </header>
+        
+        <main class="conteudo-principal">
+            <div class="card">
+                <div class="timer-container">
+                    <div class="timer" id="timer">00:00:00</div>
+                    <div class="timer-label">Tempo Decorrido</div>
+                </div>
+                
+                <div class="progresso">
+                    <div class="barra-progresso">
+                        <div class="progresso-preenchimento" style="width: {{ (numero_questao / total_questoes) * 100 }}%"></div>
+                    </div>
+                    <div class="progresso-texto">{{ numero_questao }} de {{ total_questoes }}</div>
+                </div>
+                
+                <div class="questao-container">
+                    <h2 class="questao-titulo">{{ questao.pergunta }}</h2>
+                    
+                    <form method="POST" class="opcoes-form">
+                        {% for opcao in questao.opcoes %}
+                        <div class="opcao-item">
+                            <input type="radio" name="resposta" id="opcao{{ loop.index }}" value="{{ opcao }}" required>
+                            <label for="opcao{{ loop.index }}">{{ opcao }}</label>
+                        </div>
+                        {% endfor %}
+                        
+                        <div class="acoes">
+                            <button type="submit" class="botao botao-principal">Próxima</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Sistema de Estudos - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        // Script para o temporizador
+        document.addEventListener('DOMContentLoaded', function() {
+            let segundos = 0;
+            let minutos = 0;
+            let horas = 0;
+            
+            function atualizarTimer() {
+                segundos++;
+                if (segundos >= 60) {
+                    segundos = 0;
+                    minutos++;
+                    if (minutos >= 60) {
+                        minutos = 0;
+                        horas++;
+                    }
+                }
+                
+                const timerElement = document.getElementById('timer');
+                timerElement.textContent = 
+                    (horas < 10 ? '0' + horas : horas) + ':' +
+                    (minutos < 10 ? '0' + minutos : minutos) + ':' +
+                    (segundos < 10 ? '0' + segundos : segundos);
+            }
+            
+            // Inicia o temporizador
+            setInterval(atualizarTimer, 1000);
+            
+            // Adiciona animações aos elementos da página
+            const questaoContainer = document.querySelector('.questao-container');
+            questaoContainer.classList.add('fade-in');
+            
+            const opcoes = document.querySelectorAll('.opcao-item');
+            opcoes.forEach((opcao, index) => {
+                setTimeout(() => {
+                    opcao.classList.add('slide-in');
+                }, 100 * index);
+            });
+        });
+    </script>
+</body>
+</html>

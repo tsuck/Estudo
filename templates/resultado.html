@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Prova - Sistema de Estudos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titulo-principal">Resultado da Prova</h1>
+            <div class="subtitulo">Confira seu desempenho</div>
+        </header>
+        
+        <main class="conteudo-principal">
+            <div class="card resultado-card">
+                <div class="resultado-header {{ 'aprovado' if aprovado else 'reprovado' }}">
+                    <h2>{{ 'APROVADO!' if aprovado else 'REPROVADO' }}</h2>
+                    <p>Pontuação: <strong>{{ pontuacao }}</strong>/100</p>
+                </div>
+                
+                <div class="resultado-info">
+                    <div class="info-item">
+                        <div class="info-label">Hora de início:</div>
+                        <div class="info-valor">{{ hora_inicio }}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Hora de término:</div>
+                        <div class="info-valor">{{ hora_fim }}</div>
+                    </div>
+                </div>
+                
+                <div class="resultado-chart">
+                    <div class="grafico-pontuacao">
+                        <div class="gauge-wrapper">
+                            <div class="gauge" id="pontuacao-gauge">
+                                <div class="gauge-center">{{ pontuacao }}%</div>
+                            </div>
+                        </div>
+                        <div class="gauge-label">Sua pontuação</div>
+                    </div>
+                </div>
+                
+                <div class="resultado-detalhes">
+                    <h3>Detalhes das Respostas</h3>
+                    <div class="respostas-lista">
+                        {% for resposta in respostas %}
+                        <div class="resposta-item {{ 'correto' if resposta.correto else 'incorreto' }}">
+                            <div class="resposta-numero">Q{{ loop.index }}</div>
+                            <div class="resposta-conteudo">
+                                <p class="resposta-pergunta">{{ resposta.questao }}</p>
+                                <p>Sua resposta: <strong>{{ resposta.resposta_usuario }}</strong></p>
+                                {% if not resposta.correto %}
+                                <p>Resposta correta: <strong>{{ resposta.resposta_correta }}</strong></p>
+                                {% endif %}
+                            </div>
+                            <div class="resposta-status">
+                                <span class="status-icon">{{ '✓' if resposta.correto else '✗' }}</span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <div class="acoes">
+                    <a href="{{ url_for('pagina_inicial') }}" class="botao botao-secundario">Voltar ao Início</a>
+                    <a href="{{ url_for('iniciar_prova') }}" class="botao botao-principal">Fazer Nova Prova</a>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Sistema de Estudos - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animação para o gauge de pontuação
+            const pontuacaoGauge = document.getElementById('pontuacao-gauge');
+            const pontuacao = {{ pontuacao }};
+            
+            // Define a cor baseada na pontuação
+            let cor;
+            if (pontuacao >= 80) {
+                cor = '#2ecc71'; // Verde
+            } else if (pontuacao >= 60) {
+                cor = '#f1c40f'; // Amarelo
+            } else {
+                cor = '#e74c3c'; // Vermelho
+            }
+            
+            // Configura o estilo do gauge
+            pontuacaoGauge.style.background = `conic-gradient(${cor} ${pontuacao * 3.6}deg, #f1f1f1 ${pontuacao * 3.6}deg)`;
+            
+            // Animações para os elementos da página
+            const resultadoCard = document.querySelector('.resultado-card');
+            resultadoCard.classList.add('pop-in');
+            
+            const respostaItems = document.querySelectorAll('.resposta-item');
+            respostaItems.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.add('fade-in');
+                }, 100 * index);
+            });
+        });
+    </script>
+</body>
+</html>

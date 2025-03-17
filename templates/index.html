@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Estudos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titulo-principal">Sistema de Estudos</h1>
+            <div class="subtitulo">Teste seus conhecimentos e melhore seu aprendizado</div>
+        </header>
+        
+        <main class="conteudo-principal">
+            <div class="card introducao">
+                <h2>Bem-vindo ao sistema de avaliação de estudos</h2>
+                <p>Esta plataforma foi desenvolvida para testar e avaliar seus conhecimentos em diferentes áreas. Responda às questões propostas dentro do tempo e veja seu desempenho ao final.</p>
+                
+                <div class="destaque-info">
+                    <h3>Como funciona:</h3>
+                    <ul>
+                        <li>Cada prova contém 10 questões de múltipla escolha</li>
+                        <li>As questões são exibidas em ordem aleatória a cada tentativa</li>
+                        <li>Um temporizador mostrará quanto tempo você está levando</li>
+                        <li>Pontuação máxima: 100 pontos</li>
+                        <li>Nota para aprovação: 60 pontos ou mais</li>
+                    </ul>
+                </div>
+                
+                <div class="acoes">
+                    <a href="{{ url_for('instrucoes') }}" class="botao botao-secundario">Ver Instruções</a>
+                    <a href="{{ url_for('iniciar_prova') }}" class="botao botao-principal">Iniciar Prova Agora</a>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Sistema de Estudos - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
