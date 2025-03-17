@@ -8,13 +8,18 @@ Este projeto implementa um sistema de provas baseado em Flask. Ele permite que o
 
 Funcionalidades
 Carregamento de questões: As questões são carregadas a partir de três arquivos JSON: inteligenciaartificial.json, lgcomputacional.json e progcomputadores.json.
+
 Prova de múltiplas escolhas: O usuário deve responder a questões de múltiplas escolhas.
+
 Pontuação: Cada questão vale 10 pontos. O sistema calcula a pontuação total do usuário.
+
 Controle de tempo: O tempo de início e término da prova é registrado, e o tempo total gasto é exibido ao final.
+
 Resultado: Ao final da prova, o usuário recebe seu desempenho, a pontuação total e a aprovação (baseada em uma pontuação mínima de 60 pontos).
+
+
+
 Requisitos
-
-
 Para rodar este projeto, você precisa ter o Python instalado. Também são necessárias as seguintes bibliotecas:
 Flask
 JSON
@@ -43,16 +48,26 @@ http://127.0.0.1:5000/
 
 Como Funciona
 Página Inicial: Quando o usuário acessa a página inicial, ele pode iniciar a prova, que consiste em questões de múltiplas escolhas.
-Instruções: O usuário pode acessar as instruções da prova a partir do link disponível na interface.
-Prova: O usuário responderá a uma sequência de 10 questões, sendo que cada questão é aleatória. A pontuação é calculada automaticamente após a submissão da resposta.
-Resultado: Ao final, o sistema exibirá a pontuação total, o tempo total de prova e se o usuário foi aprovado ou não.
-Arquivos JSON
 
+Instruções: O usuário pode acessar as instruções da prova a partir do link disponível na interface.
+
+Prova: O usuário responderá a uma sequência de 10 questões, sendo que cada questão é aleatória. A pontuação é calculada automaticamente após a submissão da resposta.
+
+Resultado: Ao final, o sistema exibirá a pontuação total, o tempo total de prova e se o usuário foi aprovado ou não.
+
+
+
+Arquivos JSON
 O sistema utiliza três arquivos JSON para carregar as questões:
 
 inteligenciaartificial.json: Contém questões sobre Inteligência Artificial.
+
 lgcomputacional.json: Contém questões sobre Lógica Computacional.
+
 progcomputadores.json: Contém questões sobre Programação de Computadores.
+
+
+
 
 Cada arquivo JSON deve ter a seguinte estrutura:
 
